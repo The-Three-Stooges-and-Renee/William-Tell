@@ -2,13 +2,13 @@ Orginization Name: Three Stooges and Renée
 
 Group Name: Three Stooges and Renée
 
-Group Members:	Dean Nelson
-				Brian Semrau
-				Vinny Vincenzo
-				Renée Weaver
-				
+Group Members:  Dean Nelson
+        Brian Semrau
+        Vinny Vincenzo
+        Renée Weaver
+        
 Conotical Repository: https://github.com/The-Three-Stooges-and-Renee/William-Tell
-				
+        
 Task: We intend to revamp the way that student interns enter in their hours on their time sheet.  The current system is;
 1. Not mobile friendly
 2. Forces the user to select AM or PM for everything
