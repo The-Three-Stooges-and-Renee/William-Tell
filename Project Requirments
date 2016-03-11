@@ -1,0 +1,37 @@
+
+Project Three: Web Portal Redesign Due April 15, 11:49pm CT
+
+Some of the very worst designed websites you’ll come across are for banking/credit card payment, web portals, and other non-optional websites for certain classes of customers or workers. For this project, self-selected teams of 3-4 students will redesign the login page, the welcome page/tab, and all necessary pages for achieving a specific student-user task (some examples: generating a class schedule, dropping a class, paying a tuition bill, removing a registration hold, or any other task that you achive through MyIIT as a student). Your redesigned portal should be designed and developed according to sound principles of human-computer interaction, user experience, and emotional design.
+Project Goals
+
+    Conduct task analysis and apply the information gained to user-centered design.
+    Design and execute a progressively enhanced page focused on system users and tasks
+    Write valid HTML5 and CSS, and error-free JavaScript
+    Build interface modules/elements from a basic foundation in the design principles of alignment, contrast, proximity, and repetition.
+    Apply design principles including color/material, typography, accessible media, and grid-based design
+    Prepare a touch-friendly, mobile-first responsive web design
+    Write informative text content; catch error conditions and guide users accordingly
+    Engage in agile, iterative Web design and development, supported by version control in a team setting
+
+Deliverables & Milestones
+
+    Group-authored proposal memo emailed to instructor outlining A) your team members, B) the specific student-user task that your redesign will focus on, and C) the URL on GitHub to your shared and individual repositories (Email to instructor; due March 23 11:59pm)
+    Task analysis outlining the steps currently required, beginning from the login screen, for students to complete the taks that your redesign will focus on; include URLs and screen-shots along with a narrative outlining the steps. Create as a Markdown file in a task-analysis directory in your group repo; screenshot files should appear there too and be linked from the Markdown. Blur/black out any personally identifiable information. (Email repo link to instructor; due March 30, 11:59pm)
+    Redesigned MyIIT login page (by project due date)
+    Redesigned MyIIT welcome page (by project due date)
+    Redesign of all pages/steps required to complete your specified task (by project due date)
+    A group-authored memo, posted to Basecamp, describing the work of the project, including specific design choices made to improve the MyIIT portal login and welcome pages, and to streamline the student-user task that was the focus of your redesign (by project due date)
+    An individually authored 4-5 sentence self-critique of your project and your progress in class to this point, in addition to 4-5 sentence critiques for each of your group members, emailed to the instructor (by project due date)
+
+Requirements
+
+    Valid, well-formed HTML5 and CSS
+    As many HTML files as required (login, welcome, plus pages for each step to complete the task)
+    A single CSS file responsible for all screen design work
+    JavaScript that is loaded unobtrusively (no JavaScript event attributes in your HTML, in other words) and throws no errors
+    HTML-based fallbacks for any media elements (image, audio, video) that you include
+    Organized, readable source that is hand-written and original (no WYSIWYGs or code-generators, no Bootstrap or other off-the-shelf frameworks)
+    Whole team: A shared Git repository with frequent commits and meaningful commit messages that accurately reflect each set of changes that you make
+    Each team member: A personal Git repository with feature branches, frequent commits, and meaningful commit messages that accurately reflect each set of changes that you make, including experimental work that you ultimately might not push upstream
+    All GitHub repositories (team and individual) must contain only the files and commits from this project
+
