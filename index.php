@@ -19,5 +19,26 @@
   </head>
   <body>
     <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
+    <p>Select a date:</p>
+    <form>
+      <input type="date" name="date" />
+      <input type="number" name="inh1" />:<input type="number" name="inm1" />
+      <input type="radio" name="amin1" value="True" checked>AM<input type="radio" name="amin1" value="False">PM
+      <input type="number" name="outh1" />:<input type="number" name="outh1" />
+      <input type="radio" name="amout1" value="True" checked>AM<input type="radio" name="amout1" value="False">PM
+      <input type="number" name="inh2" />:<input type="number" name="inm2" />
+      <input type="radio" name="amin2" value="True" checked>AM<input type="radio" name="amin2" value="False">PM
+      <input type="number" name="outh2" />:<input type="number" name="outh2" />
+      <input type="radio" name="amout2" value="True" checked>AM<input type="radio" name="amout2" value="False">PM
+      <input type="number" name="inh3" />:<input type="number" name="inm3" />
+      <input type="radio" name="amin3" value="True" checked>AM<input type="radio" name="amin3" value="False">PM
+      <input type="number" name="outh3" />:<input type="number" name="outh3" />
+      <input type="radio" name="amout3" value="True" checked>AM<input type="radio" name="amout3" value="False">PM
+      <input type="number" name="inh4" />:<input type="number" name="inm4" />
+      <input type="radio" name="amin4" value="True" checked>AM<input type="radio" name="amin4" value="False">PM
+      <input type="number" name="outh4" />:<input type="number" name="outh4" />
+      <input type="radio" name="amout4" value="True" checked>AM<input type="radio" name="amout4" value="False">PM
+      <input type="submit" name="submit" value="Save Changes" />
+    </form>
   </body>
 </html>
