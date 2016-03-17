@@ -20,7 +20,7 @@
   <body>
     <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
     <p>Select a date:</p>
-    <form>
+    <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
       <input type="date" name="date" />
       <input type="number" name="inh1" />:<input type="number" name="inm1" />
       <input type="radio" name="amin1" value="True" checked>AM<input type="radio" name="amin1" value="False">PM
