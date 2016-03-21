@@ -8,10 +8,9 @@
 <html lang="end">
 
   <head>
-    <title></title>
+    <title>Submit timesheet</title>
     <meta charset="utf-8" />
-    <meta name="viewport"
-        content="width=device-width,initial-scale=1.0",shink-to-fit=no"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <!--Link to CSS style sheets.-->
     <link rel="stylesheet"
         type="text/css"
