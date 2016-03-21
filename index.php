@@ -18,6 +18,7 @@
   </head>
   <body>
     <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
+    <h2>Hi!
     <p>Select a date:</p>
     <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
       <input type="date" name="date" />
