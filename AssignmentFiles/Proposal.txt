@@ -1,20 +1,22 @@
-Orginization Name: Three Stooges and Renée
+﻿Orginization Name: Three Stooges and Renée
 
 Group Name: Three Stooges and Renée
 
-Group Members:  Dean Nelson
-								Brian Semrau
-								Vinny Vincenzo
-								Renée Weaver
+Group Members:                                                  Dean Nelson
+                                                                Brian Semrau
+                                                                Renée Weaver
         
 Conotical Repository: https://github.com/The-Three-Stooges-and-Renee/William-Tell
         
-Task: We intend to revamp the way that student interns enter in their hours on their time sheet.  The current system is;
+Task: We intend to revamp the way that student interns enter in their hours on their time sheet.  The current system is:
 1. Not mobile friendly
 2. Forces the user to select AM or PM for everything
 3. Forces the user to use 12 hour clock instead of letting them have the freedom to chose betten 12 hour and 24 hour clock
-4. Computersom to get to
+4. Combersome to get to
 5. Only displays one week at a time when it's a biweekly pay system
-6. Only allows employies to enter time in 15 minitte incroments
+6. Only allows employees to enter time in 15 minute incements
 7. Bad design
-8. And others
+8. And other reasons pertaining to peas.
+
+Individual GitHub repositories:
+Brian Semrau: https://github.com/thegeekkid/William-Tell
