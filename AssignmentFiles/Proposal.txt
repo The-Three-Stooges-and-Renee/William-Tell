@@ -16,4 +16,4 @@ Task: We intend to revamp the way that student interns enter in their hours on t
 5. Only displays one week at a time when it's a biweekly pay system
 6. Only allows employees to enter time in 15 minute incements
 7. Bad design
-8. And others
+8. And other reasons pertaining to peas.
