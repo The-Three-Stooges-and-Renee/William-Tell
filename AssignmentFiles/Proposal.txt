@@ -17,3 +17,6 @@ Task: We intend to revamp the way that student interns enter in their hours on t
 6. Only allows employees to enter time in 15 minute incements
 7. Bad design
 8. And other reasons pertaining to peas.
+
+Individual GitHub repositories:
+Brian Semrau: https://github.com/thegeekkid/William-Tell
