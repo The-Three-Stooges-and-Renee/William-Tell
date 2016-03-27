@@ -55,3 +55,23 @@ table {
 /*---------------------------------------------------------
 	Begin custom CSS for Hydroponics Control Panel
 ---------------------------------------------------------*/
+
+html {
+	font-family: futura, arial, sans-serif;
+}
+
+#iit_banner {
+	background-color: red;
+	min-height: 5em;
+}
+
+#nav_bar {
+	background-color: blue;
+	min-height: 3em;
+}
+
+#form {
+	background-color: yellow;
+	min-height: 10em;
+}
+

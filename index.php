@@ -17,10 +17,17 @@
         href="Screen.css"/>
   </head>
   <body>
-    <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
-    <h2>Hi!</h2>
-    <p>Select a date:</p>
-    <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
+    <div id="iit_banner">
+     <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
+    </div> <!-- end of iit_banner -->
+
+    <div id="nav_bar">
+     <h2>Hi!</h2>
+    </div> <!-- end of nav_bar -->
+
+    <div id="content">
+     <p>Select a date:</p>
+     <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
       <input type="date" name="date" />
       <input type="number" name="inh1" />:<input type="number" name="inm1" />
       <input type="radio" name="amin1" value="True" checked>AM<input type="radio" name="amin1" value="False">PM
@@ -39,6 +46,7 @@
       <input type="number" name="outh4" />:<input type="number" name="outh4" />
       <input type="radio" name="amout4" value="True" checked>AM<input type="radio" name="amout4" value="False">PM
       <input type="submit" name="submit" value="Save Changes" />
-    </form>
+     </form>
+    </div> <!-- end of content -->
   </body>
 </html>
