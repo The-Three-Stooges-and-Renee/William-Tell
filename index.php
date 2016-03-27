@@ -25,7 +25,7 @@
      <h2>Hi!</h2>
     </div> <!-- end of nav_bar -->
 
-    <div id="content">
+    <div id="form">
      <p>Select a date:</p>
      <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
       <input type="date" name="date" />
@@ -47,6 +47,6 @@
       <input type="radio" name="amout4" value="True" checked>AM<input type="radio" name="amout4" value="False">PM
       <input type="submit" name="submit" value="Save Changes" />
      </form>
-    </div> <!-- end of content -->
+    </div> <!-- end of form -->
   </body>
 </html>
