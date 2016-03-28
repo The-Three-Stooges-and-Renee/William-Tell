@@ -1,6 +1,23 @@
-/* Secured by Hydroponics Control Panel
-CSS for entire site
-Screen.css*/
+/*=================================================================================
+
+  Screen.css
+  
+  Designed by: Dean Nelson, Renée Weaver, and Brian Semrau
+  
+  Purpose: To facilitate styling of index.php, 
+  http://submit-iit-timesheet.geekkidconsulting.com/login.aspx, and welcome.html
+  
+  CSS Structure: Native HTML Elements, classes, IDs.  Each structure element
+  is further sorted by the order that it falls on the page.  Each page's unique/new
+  elements are introduced in the following order: index.php, login.aspx, welcome.html
+  
+  Issues with this page should be submitted to:
+  https://github.com/The-Three-Stooges-and-Renee/William-Tell-DB/issues
+  
+  All questions, comments, or inquiries about supporting this project should be sent to:
+  williamtell@webhomework.geekkidconsulting.com.
+  
+  =================================================================================*/
 
 /*CSS Reset Code*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -52,6 +69,35 @@ table {
 	border-spacing: 0;
 }
 /*End CSS reset Code*/
-/*---------------------------------------------------------
-	Begin custom CSS for Hydroponics Control Panel
----------------------------------------------------------*/
+
+
+
+
+html {
+	font-family: futura, arial, sans-serif;
+}
+input[type=date]{
+	background-color: lightpink;
+	display: block;
+}
+input[type=number]{
+	background-color: lightgrey;
+}
+
+input[type=radio]{
+	width: 1.75em;
+}
+form {
+	background-color: yellow;
+	min-height: 10em;
+}
+
+#iit_banner {
+	background-color: red;
+	min-height: 5em;
+}
+
+#nav_bar {
+	background-color: blue;
+	min-height: 3em;
+}

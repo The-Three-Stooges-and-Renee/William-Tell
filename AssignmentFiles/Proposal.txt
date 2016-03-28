@@ -20,3 +20,4 @@ Task: We intend to revamp the way that student interns enter in their hours on t
 Individual GitHub repositories:
 Brian Semrau: https://github.com/thegeekkid/William-Tell
 Dean Nelson: https://github.com/ArturHawkwing1/William-Tell
+Renée Weaver: https://github.com/reneeweaver/William-Tell
