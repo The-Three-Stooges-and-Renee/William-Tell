@@ -3,7 +3,7 @@
     {
       header('Location: http://submit-iit-timesheet.geekkidconsulting.com/login.aspx');
     }
-  $dat = date("m/d/Y");
+  $dat = date("Y/m/d");
   if (!($_GET['date'] == ''))
   {
     $dat = $_GET['date'];
