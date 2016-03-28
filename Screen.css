@@ -59,22 +59,6 @@ table {
 html {
 	font-family: futura, arial, sans-serif;
 }
-
-#iit_banner {
-	background-color: red;
-	min-height: 5em;
-}
-
-#nav_bar {
-	background-color: blue;
-	min-height: 3em;
-}
-
-#form {
-	background-color: yellow;
-	min-height: 10em;
-}
-
 input[type=date]{
 	background-color: lightpink;
 	display: block;
@@ -86,4 +70,17 @@ input[type=number]{
 input[type=radio]{
 	width: 28px;
 }
+form {
+	background-color: yellow;
+	min-height: 10em;
+}
 
+#iit_banner {
+	background-color: red;
+	min-height: 5em;
+}
+
+#nav_bar {
+	background-color: blue;
+	min-height: 3em;
+}
