@@ -5,7 +5,7 @@
     }
   $inh1 = '06';
   $inm1 = '15';
-  $imam1 = 'True';
+  $inam1 = 'True';
 ?>
 <!Doctype HTML>
 <html lang="end">
@@ -33,7 +33,7 @@
      <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
       <input type="date" name="date" />
       <input type="number" name="inh1" value="<?php echo $inh1;?>" />:<input type="number" name="inm1" value="<?php echo $inm1;?>" />
-      <input type="radio" name="amin1" value="True" checked>AM<input type="radio" name="amin1" value="False">PM
+      <input type="radio" name="amin1" value="True" <?php if $inam1=='True' {echo 'checked'}?>>AM<input type="radio" name="amin1" value="False" <?php if $inam1=='False' {echo 'checked'}?>>PM
       <input type="number" name="outh1" />:<input type="number" name="outh1" />
       <input type="radio" name="amout1" value="True" checked>AM<input type="radio" name="amout1" value="False">PM
       <input type="number" name="inh2" />:<input type="number" name="inm2" />
