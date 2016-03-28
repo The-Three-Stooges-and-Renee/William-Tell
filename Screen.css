@@ -68,7 +68,7 @@ input[type=number]{
 }
 
 input[type=radio]{
-	width: 28px;
+	width: 1.75em;
 }
 form {
 	background-color: yellow;
