@@ -32,7 +32,7 @@
      <p>Select a date:</p>
      <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
       <input type="date" name="date" />
-      <input type="number" name="inh1" value="<?php echo $inh1;?>" />:<input type="number" name="inm1" value="<?php echo $inh1;?>" />
+      <input type="number" name="inh1" value="<?php echo $inh1;?>" />:<input type="number" name="inm1" value="<?php echo $inm1;?>" />
       <input type="radio" name="amin1" value="True" checked>AM<input type="radio" name="amin1" value="False">PM
       <input type="number" name="outh1" />:<input type="number" name="outh1" />
       <input type="radio" name="amout1" value="True" checked>AM<input type="radio" name="amout1" value="False">PM
