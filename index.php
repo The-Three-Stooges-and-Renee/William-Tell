@@ -32,7 +32,7 @@
           $outh3 = str_replace("outh3=", "", $cokval[14]);
           $outh4 = str_replace("outh4=", "", $cokval[15]);
           $outm1 = str_replace("outm1=", "", $cokval[16]);
-          $outm1 = str_replace("outm2=", "", $cokval[17]);
+          $outm2 = str_replace("outm2=", "", $cokval[17]);
           $outm3 = str_replace("outm3=", "", $cokval[18]);
           $outm4 = str_replace("outm4=", "", $cokval[19]);
           $outam1 = str_replace("outam1=", "", $cokval[20]);
