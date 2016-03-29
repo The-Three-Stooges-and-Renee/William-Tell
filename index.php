@@ -12,7 +12,8 @@
   }
   if (!(isset($_COOKIE[$dat])))
     {
-      header('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $dat);
+      //header('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $dat);
+      echo "<script>alert('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $dat);</script>";
     } else {
       $inh1 = $_COOKIE[$dat]["inh1"];
       $inh2 = $_COOKIE[$dat]["inh2"];
