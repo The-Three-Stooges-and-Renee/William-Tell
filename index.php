@@ -13,31 +13,33 @@
   if (!(isset($_COOKIE[$dat])))
     {
       header('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $dat);
+    } else {
+      $inh1 = $_COOKIE[$dat]["inh1"];
+      $inh2 = $_COOKIE[$dat]["inh2"];
+      $inh3 = $_COOKIE[$dat]["inh3"];
+      $inh4 = $_COOKIE[$dat]["inh4"];
+      $inm1 = $_COOKIE[$dat]["inm1"];
+      $inm2 = $_COOKIE[$dat]["inm2"];
+      $inm3 = $_COOKIE[$dat]["inm3"];
+      $inm4 = $_COOKIE[$dat]["inm4"];
+      $inam1 = $_COOKIE[$dat]["inam1"];
+      $inam2 = $_COOKIE[$dat]["inam2"];
+      $inam3 = $_COOKIE[$dat]["inam3"];
+      $inam4 = $_COOKIE[$dat]["inam4"];
+      $outh1 = $_COOKIE[$dat]["outh1"];
+      $outh2 = $_COOKIE[$dat]["outh2"];
+      $outh3 = $_COOKIE[$dat]["outh3"];
+      $outh4 = $_COOKIE[$dat]["outh4"];
+      $outm1 = $_COOKIE[$dat]["outm1"];
+      $outm2 = $_COOKIE[$dat]["outm2"];
+      $outm3 = $_COOKIE[$dat]["outm3"];
+      $outm4 = $_COOKIE[$dat]["outm4"];
+      $outam1 = $_COOKIE[$dat]["outam1"];
+      $outam2 = $_COOKIE[$dat]["outam2"];
+      $outam3 = $_COOKIE[$dat]["outam3"];
+      $outam4 = $_COOKIE[$dat]["outam4"];
     }
-  $inh1 = '00';
-  $inh2 = '00';
-  $inh3 = '00';
-  $inh4 = '00';
-  $inm1 = '00';
-  $inm2 = '00';
-  $inm3 = '00';
-  $inm4 = '00';
-  $inam1 = 'True';
-  $inam2 = 'True';
-  $inam3 = 'True';
-  $inam4 = 'True';
-  $outh1 = '00';
-  $outh2 = '00';
-  $outh3 = '00';
-  $outh4 = '00';
-  $outm1 = '00';
-  $outm2 = '00';
-  $outm3 = '00';
-  $outm4 = '00';
-  $outam1 = 'True';
-  $outam2 = 'True';
-  $outam3 = 'True';
-  $outam4 = 'True';
+  
 ?>
 <!Doctype HTML>
 <html lang="en-US">
