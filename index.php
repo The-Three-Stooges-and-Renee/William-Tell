@@ -14,30 +14,31 @@
         {
           header('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' .$dat);
         } else {
-          $inh1 = $_COOKIE[$dat]["inh1"];
-          $inh2 = $_COOKIE[$dat]["inh2"];
-          $inh3 = $_COOKIE[$dat]["inh3"];
-          $inh4 = $_COOKIE[$dat]["inh4"];
-          $inm1 = $_COOKIE[$dat]["inm1"];
-          $inm2 = $_COOKIE[$dat]["inm2"];
-          $inm3 = $_COOKIE[$dat]["inm3"];
-          $inm4 = $_COOKIE[$dat]["inm4"];
-          $inam1 = $_COOKIE[$dat]["inam1"];
-          $inam2 = $_COOKIE[$dat]["inam2"];
-          $inam3 = $_COOKIE[$dat]["inam3"];
-          $inam4 = $_COOKIE[$dat]["inam4"];
-          $outh1 = $_COOKIE[$dat]["outh1"];
-          $outh2 = $_COOKIE[$dat]["outh2"];
-          $outh3 = $_COOKIE[$dat]["outh3"];
-          $outh4 = $_COOKIE[$dat]["outh4"];
-          $outm1 = $_COOKIE[$dat]["outm1"];
-          $outm2 = $_COOKIE[$dat]["outm2"];
-          $outm3 = $_COOKIE[$dat]["outm3"];
-          $outm4 = $_COOKIE[$dat]["outm4"];
-          $outam1 = $_COOKIE[$dat]["outam1"];
-          $outam2 = $_COOKIE[$dat]["outam2"];
-          $outam3 = $_COOKIE[$dat]["outam3"];
-          $outam4 = $_COOKIE[$dat]["outam4"];
+          $cokval = explode("&", $_COOKIE[$dat]);
+          $inh1 = str_replace("inh1=", "", $cokval[0]);
+          $inh2 = str_replace("inh2=", "", $cokval[1]);
+          $inh3 = str_replace("inh3=", "", $cokval[2]);
+          $inh4 = str_replace("inh4=", "", $cokval[3]);
+          $inm1 = str_replace("inm1=", "", $cokval[4]);
+          $inm2 = str_replace("inm2=", "", $cokval[5]);
+          $inm3 = str_replace("inm3=", "", $cokval[6]);
+          $inm4 = str_replace("inm4=", "", $cokval[7]);
+          $inam1 = str_replace("inam1=", "", $cokval[8]);
+          $inam2 = str_replace("inam2=", "", $cokval[9]);
+          $inam3 = str_replace("inam3=", "", $cokval[10]);
+          $inam4 = str_replace("inam4=", "", $cokval[11]);
+          $outh1 = str_replace("outh1=", "", $cokval[12]);
+          $outh2 = str_replace("outh2=", "", $cokval[13]);
+          $outh3 = str_replace("outh3=", "", $cokval[14]);
+          $outh4 = str_replace("outh4=", "", $cokval[15]);
+          $outm1 = str_replace("outm1=", "", $cokval[16]);
+          $outm1 = str_replace("outm2=", "", $cokval[17]);
+          $outm3 = str_replace("outm3=", "", $cokval[18]);
+          $outm4 = str_replace("outm4=", "", $cokval[19]);
+          $outam1 = str_replace("outam1=", "", $cokval[20]);
+          $outam2 = str_replace("outam2=", "", $cokval[21]);
+          $outam3 = str_replace("outam3=", "", $cokval[22]);
+          $outam4 = str_replace("outam4=", "", $cokval[23]);
         }
     }
   
