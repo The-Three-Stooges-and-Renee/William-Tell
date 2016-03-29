@@ -1,3 +1,5 @@
+
+
 <?php
   if (!(isset($_COOKIE["372fd75847c64826d41b24ac512d11803834447a"])))
     {
@@ -34,8 +36,26 @@
   $outam4 = 'True';
 ?>
 <!Doctype HTML>
-<html lang="end">
+<html lang="en-US">
 
+  <!--=================================================================================
+
+  index.php
+  
+  Designed by: Dean Nelson and Renée Weaver
+  PHP and JavaScript developed by: Brian Semrau
+  
+  Purpose: To serve as the main page in our project.  This page works as the front end
+  to allow student workers to submit a log of the hours that they have worked.
+  
+  Issues with this page should be submitted to:
+  https://github.com/The-Three-Stooges-and-Renee/William-Tell-DB/issues
+  
+  All questions, comments, or inquiries about supporting this project should be sent to:
+  williamtell@webhomework.geekkidconsulting.com.
+  
+  =================================================================================-->
+  
   <head>
     <title>Submit timesheet</title>
     <meta charset="utf-8" />
