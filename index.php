@@ -72,7 +72,7 @@
     <!--Link to CSS style sheets.-->
     <link rel="stylesheet"
         type="text/css"
-        href="Screen.css"/>
+        href="css/Screen.css"/>
   </head>
   <body>
     <div id="iit_banner">
@@ -87,7 +87,7 @@
      <p>Select a date:</p>
      <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
       <input type="date" name="date" value="<?php echo $dat;?>" />
-      <input type="submit" name="submit" formaction="index.php" value="Load Date" />
+      <input type="submit" name="submit" formaction="index.php" value="Load Date" class="jshide" />
       
       <input type="number" name="inh1" value="<?php echo $inh1;?>" />:<input type="number" name="inm1" value="<?php echo $inm1;?>" />
       <input type="radio" name="amin1" value="True" <?php if ($inam1=='True'){echo 'checked';}?>>AM<input type="radio" name="amin1" value="False" <?php if ($inam1=='False'){echo 'checked';}?>>PM
