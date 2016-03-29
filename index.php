@@ -122,5 +122,8 @@
         <input type="submit" name="submit" value="Save Changes" />
       </form>
     </div> <!-- end of form -->
+    
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/interaction.js" type="text/javascript"></script>
   </body>
 </html>
