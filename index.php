@@ -4,41 +4,43 @@
   if (!(isset($_COOKIE["372fd75847c64826d41b24ac512d11803834447a"])))
     {
       header('Location: http://submit-iit-timesheet.geekkidconsulting.com/login.aspx');
-    }
-  $dat = date("Y-m-d");
-  if (!($_GET['date'] == ''))
-  {
-    $dat = $_GET['date'];
-  }
-  if (!(isset($_COOKIE[$dat])))
-    {
-      header('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' .$dat);
     } else {
-      $inh1 = $_COOKIE[$dat]["inh1"];
-      $inh2 = $_COOKIE[$dat]["inh2"];
-      $inh3 = $_COOKIE[$dat]["inh3"];
-      $inh4 = $_COOKIE[$dat]["inh4"];
-      $inm1 = $_COOKIE[$dat]["inm1"];
-      $inm2 = $_COOKIE[$dat]["inm2"];
-      $inm3 = $_COOKIE[$dat]["inm3"];
-      $inm4 = $_COOKIE[$dat]["inm4"];
-      $inam1 = $_COOKIE[$dat]["inam1"];
-      $inam2 = $_COOKIE[$dat]["inam2"];
-      $inam3 = $_COOKIE[$dat]["inam3"];
-      $inam4 = $_COOKIE[$dat]["inam4"];
-      $outh1 = $_COOKIE[$dat]["outh1"];
-      $outh2 = $_COOKIE[$dat]["outh2"];
-      $outh3 = $_COOKIE[$dat]["outh3"];
-      $outh4 = $_COOKIE[$dat]["outh4"];
-      $outm1 = $_COOKIE[$dat]["outm1"];
-      $outm2 = $_COOKIE[$dat]["outm2"];
-      $outm3 = $_COOKIE[$dat]["outm3"];
-      $outm4 = $_COOKIE[$dat]["outm4"];
-      $outam1 = $_COOKIE[$dat]["outam1"];
-      $outam2 = $_COOKIE[$dat]["outam2"];
-      $outam3 = $_COOKIE[$dat]["outam3"];
-      $outam4 = $_COOKIE[$dat]["outam4"];
+      $dat = date("Y-m-d");
+      if (!($_GET['date'] == ''))
+      {
+        $dat = $_GET['date'];
+      }
+      if (!(isset($_COOKIE[$dat])))
+        {
+          header('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' .$dat);
+        } else {
+          $inh1 = $_COOKIE[$dat]["inh1"];
+          $inh2 = $_COOKIE[$dat]["inh2"];
+          $inh3 = $_COOKIE[$dat]["inh3"];
+          $inh4 = $_COOKIE[$dat]["inh4"];
+          $inm1 = $_COOKIE[$dat]["inm1"];
+          $inm2 = $_COOKIE[$dat]["inm2"];
+          $inm3 = $_COOKIE[$dat]["inm3"];
+          $inm4 = $_COOKIE[$dat]["inm4"];
+          $inam1 = $_COOKIE[$dat]["inam1"];
+          $inam2 = $_COOKIE[$dat]["inam2"];
+          $inam3 = $_COOKIE[$dat]["inam3"];
+          $inam4 = $_COOKIE[$dat]["inam4"];
+          $outh1 = $_COOKIE[$dat]["outh1"];
+          $outh2 = $_COOKIE[$dat]["outh2"];
+          $outh3 = $_COOKIE[$dat]["outh3"];
+          $outh4 = $_COOKIE[$dat]["outh4"];
+          $outm1 = $_COOKIE[$dat]["outm1"];
+          $outm2 = $_COOKIE[$dat]["outm2"];
+          $outm3 = $_COOKIE[$dat]["outm3"];
+          $outm4 = $_COOKIE[$dat]["outm4"];
+          $outam1 = $_COOKIE[$dat]["outam1"];
+          $outam2 = $_COOKIE[$dat]["outam2"];
+          $outam3 = $_COOKIE[$dat]["outam3"];
+          $outam4 = $_COOKIE[$dat]["outam4"];
+        }
     }
+  
   
 ?>
 <!Doctype HTML>
