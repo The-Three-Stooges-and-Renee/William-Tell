@@ -10,6 +10,10 @@
   {
     $dat = $_GET['date'];
   }
+  if (!(isset($_COOKIE[$dat])))
+    {
+      header('Location: http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $dat);
+    }
   $inh1 = '00';
   $inh2 = '00';
   $inh3 = '00';
