@@ -1,3 +1,3 @@
 $( document ).ready(function() {
-  $( '.jshide' ).switchClass('jshide', 'hidden')
+  $( '.jshide' ).addClass('hidden').removeClass('jshide')
 });
