@@ -92,6 +92,10 @@ form {
 	min-height: 10em;
 }
 
+.hidden {
+  display: none;
+}
+
 #iit_banner {
 	background-color: red;
 	min-height: 5em;
