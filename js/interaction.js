@@ -19,14 +19,14 @@ $( document ).ready(function() {
     });
     evaluateshown(200);
   });
-  $( '#inh1' ).change(evaluateshown(1000));
-  $( '#inm1' ).change(evaluateshown(1000));
-  $( '#inh2' ).change(evaluateshown(1000));
-  $( '#inm2' ).change(evaluateshown(1000));
-  $( '#inh3' ).change(evaluateshown(1000));
-  $( '#inm3' ).change(evaluateshown(1000));
-  $( '#inh4' ).change(evaluateshown(1000));
-  $( '#inm4' ).change(evaluateshown(1000));
+  $( '#inh1' ).bind('keyup', evaluateshown(1000));
+  $( '#inm1' ).bind('keyup', evaluateshown(1000));
+  $( '#inh2' ).bind('keyup', evaluateshown(1000));
+  $( '#inm2' ).bind('keyup', evaluateshown(1000));
+  $( '#inh3' ).bind('keyup', evaluateshown(1000));
+  $( '#inm3' ).bind('keyup', evaluateshown(1000));
+  $( '#inh4' ).bind('keyup', evaluateshown(1000));
+  $( '#inm4' ).bind('keyup', evaluateshown(1000));
   
 });
 /*function setinfo(){
