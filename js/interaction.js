@@ -30,6 +30,15 @@ $( document ).ready(function() {
   $( '#inm3' ).bind('input', function() { evaluateshown(1000); });
   $( '#inh4' ).bind('input', function() { evaluateshown(1000); });
   $( '#inm4' ).bind('input', function() { evaluateshown(1000); });
+  
+  $( '#outh1' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outm1' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outh2' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outm2' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outh3' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outm3' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outh4' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outm4' ).bind('input', function() { evaluateshown(1000); });
 });
 /*function setinfo(){
   alert( readcookie($('#date').val()) );
@@ -144,7 +153,6 @@ function showline(lineid, speed) {
   $( lineid ).addClass('jshide').removeClass('hidden');
 }
 function evaluateshown(speed) {
-  alert("evaluating!");
   var firstopenline = 0;
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
     hideline('#out1', speed);
