@@ -5,14 +5,16 @@ $( document ).ready(function() {
     $.ajax({
       url: ('http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $('#date').val()),
       crossDomain: true,
-      success: setinfo(output, status, xhr),
+      success: function(output, status, xhr) {
+        alert(readcookie($('#date').val()) );
+      },
       error: function() { $( '.hidden' ).addClass('.jshide').removeClass('hidden'); }
     });
   })
 });
-function setinfo(){
+/*function setinfo(){
   alert( readcookie($('#date').val()) );
-}
+}*/
 function readcookie(cookiename) {
   var realname = cookiename + "=";
   var cookarray = document.cookie.split(';');
