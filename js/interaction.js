@@ -5,7 +5,7 @@ $( document ).ready(function() {
     $.ajax({
       url: ('http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $('#date').val()),
       crossDomain: true,
-      success: setinfo(),
+      success: setinfo(output, status, xhr),
       error: function() { $( '.hidden' ).addClass('.jshide').removeClass('hidden'); }
     });
   })
