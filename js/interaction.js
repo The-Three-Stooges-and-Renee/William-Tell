@@ -4,7 +4,6 @@ $( document ).ready(function() {
     //window.location.replace('index.php?date=' + $('#date').val());
     $.ajax({
       url: ('http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $('#date').val()),
-      type: "GET",
       crossDomain: true,
       success: setinfo(),
       error: function() { $( '.hidden' ).addClass('.jshide').removeClass('hidden'); }
