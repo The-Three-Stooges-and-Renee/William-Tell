@@ -11,10 +11,10 @@ $( document ).ready(function() {
       success: function(output, status, xhr) {
         alert(readcookie($('#date').val()) );
       },
-      error: function(output, status, xhr) {
+      error: alert('hi');
+    }).done(function(output, status, xhr) {
         alert(readcookie($('#date').val()) );
-      },
-    });
+      });
   })
 });
 /*function setinfo(){
