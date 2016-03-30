@@ -140,7 +140,7 @@
     </div> <!-- end of form -->
     
     <script src="js/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery_ui/jquery-ui.min.js"></script>
+    <!--<script src="js/jquery_ui/jquery-ui.min.js"></script>-->
     <script src="js/interaction.js" type="text/javascript"></script>
   </body>
 </html>

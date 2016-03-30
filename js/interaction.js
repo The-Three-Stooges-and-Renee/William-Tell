@@ -134,10 +134,12 @@ function processcookies(cookievalue) {
   }
 }
 function hideline(lineid, speed) {
-  $( lineid ).switchClass('jshide', 'hidden', speed, 'easeInCubic');
+  //$( lineid ).switchClass('jshide', 'hidden', speed, 'easeInCubic');
+  $( lineid ).addClass('hidden').removeClass('jshide');
 }
 function showline(lineid, speed) {
-  $( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
+  //$( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
+  $( lineid ).addClass('jshide').removeClass('hidden');
 }
 function evaluateshown(speed) {
   var firstopenline = 0;
