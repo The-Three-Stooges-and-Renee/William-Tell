@@ -11,7 +11,9 @@ $( document ).ready(function() {
       success: function(output, status, xhr) {
         alert(readcookie($('#date').val()) );
       },
-      error: function() { $( '.hidden' ).addClass('.jshide').removeClass('hidden'); }
+      error: function(output, status, xhr) {
+        alert(readcookie($('#date').val()) );
+      },
     });
   })
 });
