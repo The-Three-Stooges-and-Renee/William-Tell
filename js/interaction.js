@@ -140,7 +140,6 @@ function showline(lineid, speed) {
   $( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
 }
 function evaluateshown(speed) {
-  alert('evaluating!');
   var firstopenline = 0;
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
     hideline('#out1', speed);
@@ -208,4 +207,5 @@ function evaluateshown(speed) {
     firstopenline = 4;
     showline('#out4', speed);
   }
+  return firstopenline;
 }
