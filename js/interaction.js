@@ -11,5 +11,5 @@ $( document ).ready(function() {
   })
 });
 function setinfo(){
-  alert( Cookies.get($('#date').val()) );
+  //alert( Cookies.get($('#date').val()) );
 }
