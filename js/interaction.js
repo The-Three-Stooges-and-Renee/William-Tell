@@ -46,7 +46,7 @@ function processcookies(cookievalue) {
     $( '#inm3' ).val(keys[6].replace('inm3=', ''));
     $( '#inm4' ).val(keys[7].replace('inm4=', ''));
     
-    if (keys[8].replace('inam1=', '')==True) {
+    if (keys[8].replace('inam1=', '')=='True') {
       $('#amin1').prop('checked', true);
       $('#pmin1').prop('checked', false);
     }else {
@@ -54,7 +54,7 @@ function processcookies(cookievalue) {
       $('#pmin1').prop('checked', true);
     }
     
-    if (keys[9].replace('inam2=', '')==True) {
+    if (keys[9].replace('inam2=', '')=='True') {
       $('#amin2').prop('checked', true);
       $('#pmin2').prop('checked', false);
     }else {
@@ -62,7 +62,7 @@ function processcookies(cookievalue) {
       $('#pmin2').prop('checked', true);
     }
     
-    if (keys[10].replace('inam3=', '')==True) {
+    if (keys[10].replace('inam3=', '')=='True') {
       $('#amin3').prop('checked', true);
       $('#pmin3').prop('checked', false);
     }else {
@@ -70,7 +70,7 @@ function processcookies(cookievalue) {
       $('#pmin3').prop('checked', true);
     }
     
-    if (keys[11].replace('inam4=', '')==True) {
+    if (keys[11].replace('inam4=', '')=='True') {
       $('#amin4').prop('checked', true);
       $('#pmin4').prop('checked', false);
     }else {
@@ -88,7 +88,7 @@ function processcookies(cookievalue) {
     $( '#outm3' ).val(keys[18].replace('outm3=', ''));
     $( '#outm4' ).val(keys[19].replace('outm4=', ''));
     
-    if (keys[20].replace('outam1=', '')==True) {
+    if (keys[20].replace('outam1=', '')=='True') {
       $('#amout1').prop('checked', true);
       $('#pmout1').prop('checked', false);
     }else {
@@ -96,7 +96,7 @@ function processcookies(cookievalue) {
       $('#pmout1').prop('checked', true);
     }
     
-    if (keys[21].replace('outam2=', '')==True) {
+    if (keys[21].replace('outam2=', '')=='True') {
       $('#amout2').prop('checked', true);
       $('#pmout2').prop('checked', false);
     }else {
@@ -104,7 +104,7 @@ function processcookies(cookievalue) {
       $('#pmout2').prop('checked', true);
     }
     
-    if (keys[22].replace('outam3=', '')==True) {
+    if (keys[22].replace('outam3=', '')=='True') {
       $('#amout3').prop('checked', true);
       $('#pmout3').prop('checked', false);
     }else {
@@ -112,7 +112,7 @@ function processcookies(cookievalue) {
       $('#pmout3').prop('checked', true);
     }
     
-    if (keys[23].replace('outam4=', '')==True) {
+    if (keys[23].replace('outam4=', '')=='True') {
       $('#amout4').prop('checked', true);
       $('#pmout4').prop('checked', false);
     }else {
