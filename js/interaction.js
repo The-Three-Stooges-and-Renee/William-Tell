@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   //$( '.jshide' ).addClass('hidden').removeClass('jshide');
   hideline('.jshide', 0);
-  evaluateshown(0)
+  evaluateshown(0);
   $( '#date' ).bind('input', function(){
     //window.location.replace('index.php?date=' + $('#date').val());
     $.ajax({
