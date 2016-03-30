@@ -99,37 +99,37 @@
           <input type="radio" id="amout1" name="amout1" value="True" <?php if ($outam1=='True'){echo 'checked';}?>>AM<input type="radio" id="pmout1" name="amout1" value="False" <?php if ($outam1=='False'){echo 'checked';}?>>PM
         </div>
       
-        <div id="in2">
+        <div id="in2" class="jshide">
           <p>Time in:</p>
           <input type="number" id="inh2" name="inh2" value="<?php echo $inh2;?>" />:<input type="number" id="inm2" name="inm2" value="<?php echo $inm1;?>" />
           <input type="radio" id="amin2" name="amin2" value="True" <?php if ($inam2=='True'){echo 'checked';}?>>AM<input type="radio" id="pmin2" name="amin2" value="False" <?php if ($inam2=='False'){echo 'checked';}?>>PM
         </div>
       
-        <div id="out2">
+        <div id="out2" class="jshide">
           <p>Time out:</p>
           <input type="number" id="outh2" name="outh2" value="<?php echo $outh2;?>" />:<input type="number" id="outm2" name="outm2" value="<?php echo $outm2;?>" />
           <input type="radio" id="amout2" name="amout2" value="True" <?php if ($outam2=='True'){echo 'checked';}?>>AM<input type="radio" id="pmout2" name="amout2" value="False" <?php if ($outam2=='False'){echo 'checked';}?>>PM
         </div>
       
-        <div id="in3">
+        <div id="in3" class="jshide">
           <p>Time in:</p>
           <input type="number" id="inh3" name="inh3" value="<?php echo $inh3;?>" />:<input type="number" id="inm3" name="inm3" value="<?php echo $inm3;?>" />
           <input type="radio" id="amin3" name="amin3" value="True" <?php if ($inam3=='True'){echo 'checked';}?>>AM<input type="radio" id="pmin3" name="amin3" value="False" <?php if ($inam3=='False'){echo 'checked';}?>>PM
         </div>
       
-        <div id="out3">
+        <div id="out3" class="jshide">
           <p>Time out:</p>
           <input type="number" id="outh3" name="outh3" value="<?php echo $outh3;?>" />:<input type="number" id="outm3" name="outm3" value="<?php echo $outm3;?>" />
           <input type="radio" id="amout3" name="amout3" value="True" <?php if ($outam3=='True'){echo 'checked';}?>>AM<input type="radio" id="pmout3" name="amout3" value="False" <?php if ($outam3=='False'){echo 'checked';}?>>PM
         </div>
       
-        <div id="in4">
+        <div id="in4" class="jshide">
           <p>Time in:</p>
           <input type="number" id="inh4" name="inh4" value="<?php echo $inh4;?>" />:<input type="number" id="inm4" name="inm4" value="<?php echo $inm4;?>" />
           <input type="radio" id="amin4" name="amin4" value="True" <?php if ($inam4=='True'){echo 'checked';}?>>AM<input type="radio" id="pmin4" name="amin4" value="False" <?php if ($inam4=='False'){echo 'checked';}?>>PM
         </div>
       
-        <div id="out4">
+        <div id="out4" class="jshide">
           <p>Time out:</p>
           <input type="number" id="outh4" name="outh4" value="<?php echo $outh4;?>" />:<input type="number" id="outm4" name="outm4" value="<?php echo $outm4;?>" />
           <input type="radio" id="amout4" name="amout4" value="True" <?php if ($outam4=='True'){echo 'checked';}?>>AM<input type="radio" id="pmout4" name="amout4" value="False" <?php if ($outam4=='False'){echo 'checked';}?>>PM
@@ -140,6 +140,7 @@
     </div> <!-- end of form -->
     
     <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery_ui/jquery-ui.min.js"></script>
     <script src="js/interaction.js" type="text/javascript"></script>
   </body>
 </html>
