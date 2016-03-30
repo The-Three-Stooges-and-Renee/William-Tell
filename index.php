@@ -87,37 +87,45 @@
         <input type="date" name="date" value="<?php echo $dat;?>" />
         <input type="submit" name="submit" formaction="index.php" value="Load Date" class="jshide" />
       
-        <input type="number" name="inh1" value="<?php echo $inh1;?>" />:<input type="number" name="inm1" value="<?php echo $inm1;?>" />
-        <input type="radio" name="amin1" value="True" <?php if ($inam1=='True'){echo 'checked';}?>>AM<input type="radio" name="amin1" value="False" <?php if ($inam1=='False'){echo 'checked';}?>>PM
+        <div id="in1">
+          <input type="number" name="inh1" value="<?php echo $inh1;?>" />:<input type="number" name="inm1" value="<?php echo $inm1;?>" />
+          <input type="radio" name="amin1" value="True" <?php if ($inam1=='True'){echo 'checked';}?>>AM<input type="radio" name="amin1" value="False" <?php if ($inam1=='False'){echo 'checked';}?>>PM
+        </div>
       
+        <div id="out1">
+          <input type="number" name="outh1" value="<?php echo $outh1;?>" />:<input type="number" name="outm1" value="<?php echo $outm1;?>" />
+          <input type="radio" name="amout1" value="True" <?php if ($outam1=='True'){echo 'checked';}?>>AM<input type="radio" name="amout1" value="False" <?php if ($outam1=='False'){echo 'checked';}?>>PM
+        </div>
       
-        <input type="number" name="outh1" value="<?php echo $outh1;?>" />:<input type="number" name="outm1" value="<?php echo $outm1;?>" />
-        <input type="radio" name="amout1" value="True" <?php if ($outam1=='True'){echo 'checked';}?>>AM<input type="radio" name="amout1" value="False" <?php if ($outam1=='False'){echo 'checked';}?>>PM
+        <div id="in2">
+          <input type="number" name="inh2" value="<?php echo $inh2;?>" />:<input type="number" name="inm2" value="<?php echo $inm1;?>" />
+          <input type="radio" name="amin2" value="True" <?php if ($inam2=='True'){echo 'checked';}?>>AM<input type="radio" name="amin2" value="False" <?php if ($inam2=='False'){echo 'checked';}?>>PM
+        </div>
       
+        <div id="out2">
+          <input type="number" name="outh2" value="<?php echo $outh2;?>" />:<input type="number" name="outm2" value="<?php echo $outm2;?>" />
+          <input type="radio" name="amout2" value="True" <?php if ($outam2=='True'){echo 'checked';}?>>AM<input type="radio" name="amout2" value="False" <?php if ($outam2=='False'){echo 'checked';}?>>PM
+        </div>
       
-        <input type="number" name="inh2" value="<?php echo $inh2;?>" />:<input type="number" name="inm2" value="<?php echo $inm1;?>" />
-        <input type="radio" name="amin2" value="True" <?php if ($inam2=='True'){echo 'checked';}?>>AM<input type="radio" name="amin2" value="False" <?php if ($inam2=='False'){echo 'checked';}?>>PM
+        <div id="in3">
+          <input type="number" name="inh3" value="<?php echo $inh3;?>" />:<input type="number" name="inm3" value="<?php echo $inm3;?>" />
+          <input type="radio" name="amin3" value="True" <?php if ($inam3=='True'){echo 'checked';}?>>AM<input type="radio" name="amin3" value="False" <?php if ($inam3=='False'){echo 'checked';}?>>PM
+        </div>
       
+        <div id="out3">
+          <input type="number" name="outh3" value="<?php echo $outh3;?>" />:<input type="number" name="outm3" value="<?php echo $outm3;?>" />
+          <input type="radio" name="amout3" value="True" <?php if ($outam3=='True'){echo 'checked';}?>>AM<input type="radio" name="amout3" value="False" <?php if ($outam3=='False'){echo 'checked';}?>>PM
+        </div>
       
-        <input type="number" name="outh2" value="<?php echo $outh2;?>" />:<input type="number" name="outm2" value="<?php echo $outm2;?>" />
-        <input type="radio" name="amout2" value="True" <?php if ($outam2=='True'){echo 'checked';}?>>AM<input type="radio" name="amout2" value="False" <?php if ($outam2=='False'){echo 'checked';}?>>PM
+        <div id="in4">
+          <input type="number" name="inh4" value="<?php echo $inh4;?>" />:<input type="number" name="inm4" value="<?php echo $inm4;?>" />
+          <input type="radio" name="amin4" value="True" <?php if ($inam4=='True'){echo 'checked';}?>>AM<input type="radio" name="amin4" value="False" <?php if ($inam4=='False'){echo 'checked';}?>>PM
+        </div>
       
-      
-        <input type="number" name="inh3" value="<?php echo $inh3;?>" />:<input type="number" name="inm3" value="<?php echo $inm3;?>" />
-        <input type="radio" name="amin3" value="True" <?php if ($inam3=='True'){echo 'checked';}?>>AM<input type="radio" name="amin3" value="False" <?php if ($inam3=='False'){echo 'checked';}?>>PM
-      
-      
-        <input type="number" name="outh3" value="<?php echo $outh3;?>" />:<input type="number" name="outm3" value="<?php echo $outm3;?>" />
-        <input type="radio" name="amout3" value="True" <?php if ($outam3=='True'){echo 'checked';}?>>AM<input type="radio" name="amout3" value="False" <?php if ($outam3=='False'){echo 'checked';}?>>PM
-      
-      
-        <input type="number" name="inh4" value="<?php echo $inh4;?>" />:<input type="number" name="inm4" value="<?php echo $inm4;?>" />
-        <input type="radio" name="amin4" value="True" <?php if ($inam4=='True'){echo 'checked';}?>>AM<input type="radio" name="amin4" value="False" <?php if ($inam4=='False'){echo 'checked';}?>>PM
-      
-      
-        <input type="number" name="outh4" value="<?php echo $outh4;?>" />:<input type="number" name="outm4" value="<?php echo $outm4;?>" />
-        <input type="radio" name="amout4" value="True" <?php if ($outam4=='True'){echo 'checked';}?>>AM<input type="radio" name="amout4" value="False" <?php if ($outam4=='False'){echo 'checked';}?>>PM
-      
+        <div id="out4">
+          <input type="number" name="outh4" value="<?php echo $outh4;?>" />:<input type="number" name="outm4" value="<?php echo $outm4;?>" />
+          <input type="radio" name="amout4" value="True" <?php if ($outam4=='True'){echo 'checked';}?>>AM<input type="radio" name="amout4" value="False" <?php if ($outam4=='False'){echo 'checked';}?>>PM
+        </div>
       
         <input type="submit" name="submit" value="Save Changes" />
       </form>
