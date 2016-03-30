@@ -10,8 +10,7 @@ $( document ).ready(function() {
       },
       success: function(output, status, xhr) {
         alert(readcookie($('#date').val()) );
-      },
-      error: function() { alert('hi'); }
+      }
     }).done(function(output, status, xhr) {
         alert(readcookie($('#date').val()) );
       });
