@@ -11,5 +11,5 @@ $( document ).ready(function() {
   })
 });
 function setinfo(){
-  alert('setting info');
+  alert( $.cookie($('#date').val()) );
 }
