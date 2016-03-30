@@ -11,7 +11,7 @@ $( document ).ready(function() {
       success: function(output, status, xhr) {
         alert(readcookie($('#date').val()) );
       },
-      error: alert('hi');
+      error: function() { alert('hi'); }
     }).done(function(output, status, xhr) {
         alert(readcookie($('#date').val()) );
       });
