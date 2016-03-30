@@ -4,7 +4,7 @@ $( document ).ready(function() {
     //window.location.replace('index.php?date=' + $('#date').val());
     $.ajax({
       url: ('http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $('#date').val())
-    }).done(setinfo();)
+    }).done(setinfo());
   })
 });
 function setinfo(){
