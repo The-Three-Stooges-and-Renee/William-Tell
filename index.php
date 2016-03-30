@@ -93,7 +93,7 @@
           <input type="radio" id="amin1" name="amin1" value="True" <?php if ($inam1=='True'){echo 'checked';}?>>AM<input type="radio" id="pmin1" name="amin1" value="False" <?php if ($inam1=='False'){echo 'checked';}?>>PM
         </div>
       
-        <div id="out1">
+        <div id="out1" class="jshide">
           <p>Time out:</p>
           <input type="number" id="outh1" name="outh1" value="<?php echo $outh1;?>" />:<input type="number" id="outm1" name="outm1" value="<?php echo $outm1;?>" />
           <input type="radio" id="amout1" name="amout1" value="True" <?php if ($outam1=='True'){echo 'checked';}?>>AM<input type="radio" id="pmout1" name="amout1" value="False" <?php if ($outam1=='False'){echo 'checked';}?>>PM
