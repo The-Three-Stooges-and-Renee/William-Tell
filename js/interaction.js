@@ -2,6 +2,15 @@ $( document ).ready(function() {
   //$( '.jshide' ).addClass('hidden').removeClass('jshide');
   hideline('.jshide', 0);
   evaluateshown(0);
+  $( '#inh1' ).bind('keyup', evaluateshown(1000));
+  $( '#inm1' ).bind('keyup', evaluateshown(1000));
+  $( '#inh2' ).bind('keyup', evaluateshown(1000));
+  $( '#inm2' ).bind('keyup', evaluateshown(1000));
+  $( '#inh3' ).bind('keyup', evaluateshown(1000));
+  $( '#inm3' ).bind('keyup', evaluateshown(1000));
+  $( '#inh4' ).bind('keyup', evaluateshown(1000));
+  $( '#inm4' ).bind('keyup', evaluateshown(1000));
+  
   $( '#date' ).bind('input', function(){
     //window.location.replace('index.php?date=' + $('#date').val());
     $.ajax({
@@ -19,14 +28,7 @@ $( document ).ready(function() {
     });
     evaluateshown(200);
   });
-  $( '#inh1' ).bind('keyup', evaluateshown(1000));
-  $( '#inm1' ).bind('keyup', evaluateshown(1000));
-  $( '#inh2' ).bind('keyup', evaluateshown(1000));
-  $( '#inm2' ).bind('keyup', evaluateshown(1000));
-  $( '#inh3' ).bind('keyup', evaluateshown(1000));
-  $( '#inm3' ).bind('keyup', evaluateshown(1000));
-  $( '#inh4' ).bind('keyup', evaluateshown(1000));
-  $( '#inm4' ).bind('keyup', evaluateshown(1000));
+
   
 });
 /*function setinfo(){
