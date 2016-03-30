@@ -208,5 +208,4 @@ function evaluateshown(speed) {
     firstopenline = 4;
     showline('#out4', speed);
   }
-  return firstopenline;
 }
