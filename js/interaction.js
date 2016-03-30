@@ -1,5 +1,6 @@
 $( document ).ready(function() {
-  $( '.jshide' ).addClass('hidden').removeClass('jshide');
+  //$( '.jshide' ).addClass('hidden').removeClass('jshide');
+  hideline('.jshide', 0);
   $( '#date' ).bind('input', function(){
     //window.location.replace('index.php?date=' + $('#date').val());
     $.ajax({
@@ -16,6 +17,8 @@ $( document ).ready(function() {
       },
     });
   })
+  
+  
 });
 /*function setinfo(){
   alert( readcookie($('#date').val()) );
@@ -120,4 +123,10 @@ function processcookies(cookievalue) {
       $('#pmout4').prop('checked', true);
     }
   }
+}
+function hideline(lineid, speed) {
+  $( lineid ).switchClass('jshide', 'hidden', speed, 'easeInCubic');
+}
+function showline(lineid, speed) {
+  $( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
 }
