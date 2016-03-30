@@ -18,7 +18,7 @@ function readcookie(cookiename) {
   var cookarray = document.cookie.split(';');
   for(var i=0; i<cookarray.length; i++) {
     var resp = cookarray[i];
-    while resp.charAt(0)==' ') resp = resp.substring(1);
+    while (resp.charAt(0)==' ') resp = resp.substring(1);
     if (resp.indexOf(realname) == 0) return resp.substring(realname.length,resp.length);
   }
   return "";
