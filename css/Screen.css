@@ -88,7 +88,7 @@ input[type=radio]{
 	width: 1.75em;
 }
 form {
-	background-color: yellow;
+	background-color: #FAFAFA;
 	min-height: 10em;
 }
 
@@ -97,11 +97,15 @@ form {
 }
 
 #iit_banner {
-	background-color: red;
+	background-color: #C40C15;
 	min-height: 5em;
 }
 
 #nav_bar {
-	background-color: blue;
+	background-color: #8A5456;
 	min-height: 3em;
+}
+
+#in1 {
+	display: inline;
 }
