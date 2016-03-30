@@ -1,6 +1,7 @@
 $( document ).ready(function() {
   //$( '.jshide' ).addClass('hidden').removeClass('jshide');
   hideline('.jshide', 0);
+  evaluateshown(0)
   $( '#date' ).bind('input', function(){
     //window.location.replace('index.php?date=' + $('#date').val());
     $.ajax({
@@ -16,8 +17,16 @@ $( document ).ready(function() {
         processcookies(readcookie($('#date').val()) );
       },
     });
-  })
-  
+    evaluateshown(200);
+  });
+  $( '#inh1' ).bind('input', evaluateshown(1000));
+  $( '#inm1' ).bind('input', evaluateshown(1000));
+  $( '#inh2' ).bind('input', evaluateshown(1000));
+  $( '#inm2' ).bind('input', evaluateshown(1000));
+  $( '#inh3' ).bind('input', evaluateshown(1000));
+  $( '#inm3' ).bind('input', evaluateshown(1000));
+  $( '#inh4' ).bind('input', evaluateshown(1000));
+  $( '#inm4' ).bind('input', evaluateshown(1000));
   
 });
 /*function setinfo(){
@@ -129,4 +138,74 @@ function hideline(lineid, speed) {
 }
 function showline(lineid, speed) {
   $( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
+}
+function evaluateshown(speed) {
+  var firstopenline = 0;
+  if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
+    hideline('#out1', speed);
+    hideline('#in2', speed);
+    hideline('#out2', speed);
+    hideline('#in3', speed);
+    hideline('#out3', speed);
+    hideline('#in4', speed);
+    hideline('#out4', speed);
+  }else {
+    firstopenline = 1;
+    showline('#out1', speed);
+  }
+  if ((($('#outh1').val() == 0) || ($('#outh1').val() == 00)) && (($('#outm1').val() == 0) || ($('#outm1').val() == 00))) {
+    hideline('#in2', speed);
+    hideline('#out2', speed);
+    hideline('#in3', speed);
+    hideline('#out3', speed);
+    hideline('#in4', speed);
+    hideline('#out4', speed);
+  }else {
+    firstopenline = 1;
+    showline('#in2', speed);
+  }
+  
+  if ((($('#inh2').val() == 0) || ($('#inh2').val() == 00)) && (($('#inm2').val() == 0) || ($('#inm2').val() == 00))) {
+    hideline('#out2', speed);
+    hideline('#in3', speed);
+    hideline('#out3', speed);
+    hideline('#in4', speed);
+    hideline('#out4', speed);
+  }else {
+    firstopenline = 2;
+    showline('#out2', speed);
+  }
+  if ((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00))) {
+    hideline('#in3', speed);
+    hideline('#out3', speed);
+    hideline('#in4', speed);
+    hideline('#out4', speed);
+  }else {
+    firstopenline = 2;
+    showline('#in3', speed);
+  }  
+  
+  if ((($('#inh3').val() == 0) || ($('#inh3').val() == 00)) && (($('#inm3').val() == 0) || ($('#inm3').val() == 00))) {
+    hideline('#out3', speed);
+    hideline('#in4', speed);
+    hideline('#out4', speed);
+  }else {
+    firstopenline = 3;
+    showline('#out3', speed);
+  }
+  if ((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00))) {
+    hideline('#in4', speed);
+    hideline('#out4', speed);
+  }else {
+    firstopenline = 3;
+    showline('#in4', speed);
+  }
+  
+  if ((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00))) {
+    hideline('#out4', speed);
+  }else {
+    firstopenline = 4;
+    showline('#out4', speed);
+  }
+  return firstopenline;
 }
