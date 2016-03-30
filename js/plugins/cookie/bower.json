@@ -1,18 +1,18 @@
 {
-  "name": "jquery.cookie",
-  "version": "1.4.1",
+  "name": "js-cookie",
+  "license": "MIT",
   "main": [
-    "./jquery.cookie.js"
+    "src/js.cookie.js"
   ],
-  "dependencies": {
-    "jquery": ">=1.2"
-  },
   "ignore": [
+    "travis.sh",
     "test",
-    ".*",
-    "*.json",
-    "*.md",
-    "*.txt",
-    "Gruntfile.js"
+    "Gruntfile.js",
+    "package.json",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    ".tm_properties",
+    ".travis.yml"
   ]
 }
