@@ -1,3 +1,10 @@
+# ITMD362 - Human Computer Interaction and Web Design
+## Team: The Three Stooges and Renée
+### Project 3: Web Portal Redesign
+#### Deliverable 2: Task analysis
+##### Project description:
+Our team has elected to redesign the student timesheet submittal process on (http://my.iit.edu.).  The current steps to submit a timesheet on (http://my.iit.edu) are as follows:
+
 1: Go to iit.edu
 2: Go to my.iit.edu
 3: Enter Username
