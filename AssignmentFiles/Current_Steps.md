@@ -6,7 +6,9 @@
 Our team has elected to redesign the student timesheet submittal process on (http://my.iit.edu.).  The current steps to submit a timesheet on (http://my.iit.edu) are as follows:
 
 1: Go to iit.edu
-2: Go to my.iit.edu
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/1.JPG "iit.edu homepage")
+2: Click on myIIT
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/2.JPG "my.iit.edu login)
 3: Enter Username
 4: Hit logon button (Enter button does work)
 5: Click work button
