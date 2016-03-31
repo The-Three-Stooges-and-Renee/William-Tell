@@ -9,9 +9,12 @@ Our team has elected to redesign the student timesheet submittal process on http
 ![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/1.JPG "iit.edu homepage")
 2: Click on myIIT
 ![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/2.JPG "my.iit.edu login")
-3: Enter Username
-4: Hit logon button (Enter button does work)
-5: Click work button
+3: Enter Username and password
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/3.JPG "Type username")
+4: Hit logon button (Enter button does work on some browsers)
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/4.JPG "Login button")
+5: Click work tab
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/5.JPG "Work button")
 6: Click the Correct time sheet
 7: Click the correct hours under the correct day.
 8: Enter in the time in (have to include leading 0 even though it doesn't except 24 hour clock)
