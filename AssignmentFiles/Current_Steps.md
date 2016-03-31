@@ -20,6 +20,7 @@ Our team has elected to redesign the student timesheet submittal process on http
 7: Click the correct hours under the correct day.
 ![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/7.JPG "Work button")
 8: Enter in the time in (have to include leading 0 even though it doesn't except 24 hour clock)
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/8.JPG "Work button")
 9: Select AM or PM
 10:Enter time out for lunch
 11:Enter AM or PM
