@@ -28,6 +28,7 @@ Our team has elected to redesign the student timesheet submittal process on http
 11:Enter AM or PM
 ![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/11.JPG "Select AM or PM")
 12:Enter time in from lunch
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/12.JPG "Enter Time")
 13:Enter AM or PM
 14:Enter time out for the day
 15:Enter AM or PM
