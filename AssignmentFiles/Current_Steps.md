@@ -16,12 +16,13 @@ Our team has elected to redesign the student timesheet submittal process on http
 5: Click work tab
 ![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/5.JPG "Work button")
 6: Find and click the correct time sheet
-![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/6.JPG "Work button")
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/6.JPG "Timesheet")
 7: Click the correct hours under the correct day.
-![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/7.JPG "Work button")
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/7.JPG "Work hours")
 8: Enter in the time in (have to include leading 0 even though it doesn't except 24 hour clock)
-![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/8.JPG "Work button")
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/8.JPG "Enter time")
 9: Select AM or PM
+![](https://raw.githubusercontent.com/The-Three-Stooges-and-Renee/William-Tell/master/AssignmentFiles/PhotosForSteps/9.JPG "Select AM or PM")
 10:Enter time out for lunch
 11:Enter AM or PM
 12:Enter time in from lunch
