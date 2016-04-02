@@ -89,6 +89,7 @@ input[type=radio]{
 }
 form {
 	background-color: #FAFAFA;
+	font-size: 0.825em;
 	min-height: 10em;
 }
 
@@ -108,4 +109,27 @@ form {
 
 #in1 {
 	display: inline;
+}
+
+/* Login page */
+
+#TextBox1 {
+	border-radius: 0.3125em;
+	font-size: 1em;
+}
+
+#TextBox2 {
+	border-radius: 0.3125em;
+	font-size: 1em;
+}
+
+#Button1 {
+	border-radius: 0.3125em;
+	background-color: #6ce347;
+}
+
+/* Test account -- may be removed */
+#Button2 {
+	border-radius: 0.3125em;
+    background-color: #f4e542;
 }
