@@ -113,11 +113,13 @@ form {
 #TextBox1 {
 	border-radius: 0.3125em;
 	font-size: 1em;
+	margin-bottom: 0.875em;
 }
 
 #TextBox2 {
 	border-radius: 0.3125em;
 	font-size: 1em;
+	margin-bottom: 0.875em;
 }
 
 #Button1 {
@@ -125,6 +127,7 @@ form {
 	background-color: #6CE347;
 	display: block;
 	font-size: 0.78125em;
+	margin-bottom: 0.375em;
 }
 
 /* Test account -- may be removed */
@@ -132,4 +135,5 @@ form {
 	border-radius: 0.3125em;
     background-color: #F4E542;
 	font-size: 0.78125em;
+	margin-bottom: 2em;
 }
