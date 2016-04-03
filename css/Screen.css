@@ -86,7 +86,7 @@ input[type=radio]{
 	width: 1.75em;
 }
 form {
-	background-color: #D3D3D3;
+	background-color: #FAFAFA;
 	min-height: 10em;
 }
 
@@ -110,24 +110,33 @@ form {
 
 /* Login page */
 
-#login_form input[type=text] {
+#login_form{
+	background-color: #D3D3D3;
+	border-color: #8C001A;
+	border-radius: 0.3125em;
+	border-style: solid;
+	border-width: 0.15em;
+	max-width: 15em;
+	padding: 5%;
+	position: fixed;
+	top: 5%;
+	left: 5%;
+}
+
+#login_form p {
+	margin-left: 0.875em; 
+}
+
+#login_form input[type=text]{
 	border-radius: 0.3125em;
 	font-size: 1em;
-	margin-bottom: 0.875em;
+	margin: 0.875em;
 }
 
 #login_form input[type=submit] {
+	background-color: #FAFAFA;
 	border-radius: 0.3125em;	
 	display: block;
 	font-size: 0.78125em;
-}
-
-#Button1 {
-	background-color: #6CE347;
-	margin-bottom: 0.375em;
-}
-
-#Button2 {
-    background-color: #F4E542;
-	margin-bottom: 2em;
+	margin: 0.875em;
 }
