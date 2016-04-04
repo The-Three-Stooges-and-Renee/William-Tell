@@ -400,6 +400,24 @@ function roundall() {
       $('#outm4').val(00);
     }
   }
+  
+  process24hr('in', '1');
+  process24hr('in', '2');
+  process24hr('in', '3');
+  process24hr('in', '4');
+  process24hr('out', '1');
+  process24hr('out', '2');
+  process24hr('out', '3');
+  process24hr('out', '4');
+}
+function process24hr(io, line) {
+  var hval = $('#' + io + 'h' + line).val();
+  if (hval > 12) {
+    $('#am' + io + line).prop('checked', false);
+    $('#pm' + io + line).prop('checked', false);
+    hval += (-12);
+    $('#' + io + 'h' + line).val(hval);
+  }
 }
 function evaluateshown(speed) {
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
