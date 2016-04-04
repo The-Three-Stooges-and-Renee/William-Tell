@@ -40,10 +40,15 @@ $( document ).ready(function() {
   $( '#outm3' ).bind('input', function() { evaluateshown(1000); });
   $( '#outh4' ).bind('input', function() { evaluateshown(1000); });
   $( '#outm4' ).bind('input', function() { evaluateshown(1000); });
+  $( '#punchin' ).bind('click', function() { punchin(); });
+  $( '#punchout' ).bind('click', function() { punchout(); });
 });
-/*function setinfo(){
-  alert( readcookie($('#date').val()) );
-}*/
+function punchin(){
+  
+}
+function punchout() {
+  
+}
 function readcookie(cookiename) {
   var realname = cookiename + "=";
   var cookarray = document.cookie.split(';');
