@@ -216,9 +216,105 @@ function showline(lineid, speed) {
   //$( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
   $( lineid ).addClass('jshide').removeClass('hidden');
 }
-function evaluateshown(speed) {
+
+function roundall() {
   var hval = 0;
   var mval = 0;
+  mval = $('#inm1').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#inm1').val(round15(mval));
+    }else {
+      hval = $('#inh1').val();
+      hval++;
+      $('#inh1').val(hval);
+      $('#inm1').val(00);
+    }
+  }
+  mval = $('#outm1').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#outm1').val(round15(mval));
+    }else {
+      hval = $('#outh1').val();
+      hval++;
+      $('#outh1').val(hval);
+      $('#outm1').val(00);
+    }
+  }
+  mval = $('#inm2').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#inm2').val(round15(mval));
+    }else {
+      hval = $('#inh2').val();
+      hval++;
+      $('#inh2').val(hval);
+      $('#inm2').val(00);
+    }
+  }
+  
+  mval = $('#outm2').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#outm2').val(round15(mval));
+    }else {
+      hval = $('#outh2').val();
+      hval++;
+      $('#outh2').val(hval);
+      $('#outm2').val(00);
+    }
+  }
+  
+  mval = $('#inm3').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#inm3').val(round15(mval));
+    }else {
+      hval = $('#inh3').val();
+      hval++;
+      $('#inh3').val(hval);
+      $('#inm3').val(00);
+    }
+  }
+  
+  mval = $('#outm3').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#outm3').val(round15(mval));
+    }else {
+      hval = $('#outh3').val();
+      hval++;
+      $('#outh3').val(hval);
+      $('#outm3').val(00);
+    }
+  }
+  
+  mval = $('#inm4').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#inm4').val(round15(mval));
+    }else {
+      hval = $('#inh4').val();
+      hval++;
+      $('#inh4').val(hval);
+      $('#inm4').val(00);
+    }
+  }
+  
+  mval = $('#outm4').val();
+  if (!((mval == 00) || (mval == 0))) {
+    if (!(round15(mval) == 60)) {
+      $('#outm4').val(round15(mval));
+    }else {
+      hval = $('#outh4').val();
+      hval++;
+      $('#outh4').val(hval);
+      $('#outm4').val(00);
+    }
+  }
+}
+function evaluateshown(speed) {
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
     hideline('#out1', speed);
     hideline('#in2', speed);
@@ -229,17 +325,6 @@ function evaluateshown(speed) {
     hideline('#out4', speed);
   }else {
     showline('#out1', speed);
-    mval = $('#inm1').val();
-    if (!((mval == 00) || (mval == 0))) {
-      if (!(round15(mval) == 60)) {
-        $('#inm1').val(round15(mval));
-      }else {
-        hval = $('#inh1').val();
-        hval++;
-        $('#inh1').val(hval);
-        $('#inm1').val(00);
-      }
-    }
   }
   if ((($('#outh1').val() == 0) || ($('#outh1').val() == 00)) && (($('#outm1').val() == 0) || ($('#outm1').val() == 00))) {
     hideline('#in2', speed);
@@ -251,17 +336,6 @@ function evaluateshown(speed) {
     
   }else {
     showline('#in2', speed);
-    mval = $('#outm1').val();
-    if (!((mval == 00) || (mval == 0))) {
-      if (!(round15(mval) == 60)) {
-        $('#outm1').val(round15(mval));
-      }else {
-        hval = $('#outh1').val();
-        hval++;
-        $('#outh1').val(hval);
-        $('#outm1').val(00);
-      }
-    }
   }
   
   if ((($('#inh2').val() == 0) || ($('#inh2').val() == 00)) && (($('#inm2').val() == 0) || ($('#inm2').val() == 00))) {
@@ -270,19 +344,10 @@ function evaluateshown(speed) {
     hideline('#out3', speed);
     hideline('#in4', speed);
     hideline('#out4', speed);
-    
-    mval = $('#inm2').val();
-    if (!((mval == 00) || (mval == 0))) {
-      if (!(round15(mval) == 60)) {
-        $('#inm2').val(round15(mval));
-      }else {
-        hval = $('#inh2').val();
-        hval++;
-        $('#inh2').val(hval);
-        $('#inm2').val(00);
-      }
-    }
-    
+  }else {
+    showline('#out2', speed);
+  }
+
   if ((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00))) {
     hideline('#in3', speed);
     hideline('#out3', speed);
@@ -291,16 +356,6 @@ function evaluateshown(speed) {
     
   }else {
     showline('#in3', speed);
-    if (!(($('#outm2').val() == 00) || ($('#outm2').val() == 0))) {
-      if (!(round15($('#outm2')) == 60)) {
-        $('#outm2').val(round15($('#outm2')));
-      }else {
-        hval = $('#outh2').val();
-        hval++;
-        $('#outh2').val(hval);
-        $('#outm2').val(00);
-      }
-    }
   }  
   
   if ((($('#inh3').val() == 0) || ($('#inh3').val() == 00)) && (($('#inm3').val() == 0) || ($('#inm3').val() == 00))) {
@@ -308,16 +363,6 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
-    if (!(($('#inm3').val() == 00) || ($('#inm3').val() == 0))) {
-      if (!(round15($('#inm3')) == 60)) {
-        $('#inm3').val(round15($('#inm3')));
-      }else {
-        hval = $('#inh3').val();
-        hval++;
-        $('#inh3').val(hval);
-        $('#inm3').val(00);
-      }
-    }
     showline('#out3', speed);
   }
   if ((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00))) {
@@ -325,47 +370,14 @@ function evaluateshown(speed) {
     hideline('#out4', speed);
   }else {
     if (!(($('#outm3').val() == 00) || ($('#outm3').val() == 0))) {
-      if (!(round15($('#outm3')) == 60)) {
-        $('#outm3').val(round15($('#outm3')));
-      }else {
-        hval = $('#outh3').val();
-        hval++;
-        $('#outh3').val(hval);
-        $('#outm3').val(00);
-      }
+      showline('#in4', speed);
     }
-    showline('#in4', speed);
   }
-  
   if ((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00))) {
     hideline('#out4', speed);
   }else {
-    if (!(($('#inm4').val() == 00) || ($('#inm4').val() == 0))) {
-      if (!(round15($('#inm4')) == 60)) {
-        $('#inm4').val(round15($('#inm4')));
-      }else {
-        hval = $('#inh4').val();
-        hval++;
-        $('#inh4').val(hval);
-        $('#inm4').val(00);
-      }
-    }
     showline('#out4', speed);
   }
-  
-  if (!((($('#outh4').val() == 0) || ($('#outh4').val() == 00)) && (($('#outm4').val() == 0) || ($('#outm4').val() == 00)))) {
-    if (!(($('#outm4').val() == 00) || ($('#outm4').val() == 0))) {
-      if (!(round15($('#outm4')) == 60)) {
-        $('#outm4').val(round15($('#outm4')));
-      }else {
-        hval = $('#outh4').val();
-        hval++;
-        $('#outh4').val(hval);
-        $('#outm4').val(00);
-      }
-    }
-  }
-}
 }
 function round15(inpt) {
   var rounded = inpt;
