@@ -370,6 +370,7 @@ function evaluateshown(speed) {
     }
   }
 }
+}
 function round15(inpt) {
   var rounded = inpt;
   if (inpt < 15) {
@@ -403,7 +404,7 @@ function round15(inpt) {
             alert("Error: Didn't understand the minutes entry.")
             rounded = 00;
           }
-        }
+      }
     }
   }
   return rounded;
