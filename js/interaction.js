@@ -401,7 +401,7 @@ function round15(inpt) {
             }
           }else {
             alert("Error: Didn't understand the minutes entry.")
-            return false;
+            rounded = 00;
           }
         }
     }
