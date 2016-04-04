@@ -226,12 +226,12 @@ function evaluateshown(speed) {
     hideline('#out3', speed);
     hideline('#in4', speed);
     hideline('#out4', speed);
-    if (!(($('#inm1').val() == 00) || ($('#inm1').val() == 0))) {
+   /* if (!(($('#inm1').val() == 00) || ($('#inm1').val() == 0))) {
       if (!(round15($('#inm1')) == 60)) {
         $('#inm1').val(round15($('#inm1')));
       }else {
         
-      }
+      }*/
     }
   }else {
     showline('#out1', speed);
@@ -285,7 +285,7 @@ function evaluateshown(speed) {
     showline('#out4', speed);
   }
 }
-function round15(inpt) {
+/*function round15(inpt) {
   var rounded = inpt;
   if (inpt < 15) {
     if (inpt < 7) {
@@ -323,4 +323,4 @@ function round15(inpt) {
     }
   }
   return rounded;
-}
+}*/
