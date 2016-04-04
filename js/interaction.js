@@ -1,6 +1,7 @@
 $( document ).ready(function() {
   //$( '.jshide' ).addClass('hidden').removeClass('jshide');
   hideline('.jshide', 0);
+  showline('.jsshow', 0);
   evaluateshown(0);
   
   
