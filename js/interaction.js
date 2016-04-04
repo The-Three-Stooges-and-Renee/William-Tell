@@ -418,7 +418,7 @@ function process24hr(io, line) {
     hval = (hval - 12);
     $('#' + io + 'h' + line).val(hval);
   }
-  if ($('#' + io + 'm' + line).val() == '0') {
+  if ($('#' + io + 'm' + line).val() == 0) {
     $('#' + io + 'm' + line).val() == '00';
   }
 }
