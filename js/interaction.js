@@ -137,6 +137,7 @@ function punchin(){
     $('#inh' + line).val(dt.getHours());
     $('#inm' + line).val(dt.getMinutes());
     evaluateshown(1000);
+    roundall();
   }
 }
 function punchout() {
@@ -148,6 +149,7 @@ function punchout() {
     $('#outh' + line).val(dt.getHours());
     $('#outm' + line).val(dt.getMinutes());
     evaluateshown(1000);
+    roundall();
   }
 }
 function findinline() {
