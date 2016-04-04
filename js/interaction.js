@@ -218,6 +218,7 @@ function showline(lineid, speed) {
 }
 function evaluateshown(speed) {
   var hval = 0;
+  var mval = 0;
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
     hideline('#out1', speed);
     hideline('#in2', speed);
@@ -227,9 +228,10 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
     
-    if (!(($('#inm1').val() == 00) || ($('#inm1').val() == 0))) {
-      if (!(round15($('#inm1')) == 60)) {
-        $('#inm1').val(round15($('#inm1')));
+    mval = $('#inm1').val();
+    if (!((mval == 00) || (mval == 0))) {
+      if (!(round15(mval) == 60)) {
+        $('#inm1').val(round15(mval));
       }else {
         hval = $('#inh1').val();
         hval++;
@@ -248,9 +250,10 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
     
-    if (!(($('#outm1').val() == 00) || ($('#outm1').val() == 0))) {
-      if (!(round15($('#outm1')) == 60)) {
-        $('#outm1').val(round15($('#outm1')));
+    mval = $('#outm1').val();
+    if (!((mval == 00) || (mval == 0))) {
+      if (!(round15(mval) == 60)) {
+        $('#outm1').val(round15(mval));
       }else {
         hval = $('#outh1').val();
         hval++;
@@ -269,9 +272,10 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
     
-    if (!(($('#inm2').val() == 00) || ($('#inm2').val() == 0))) {
-      if (!(round15($('#inm2')) == 60)) {
-        $('#inm2').val(round15($('#inm2')));
+    mval = $('#inm2').val();
+    if (!((mval == 00) || (mval == 0))) {
+      if (!(round15(mval) == 60)) {
+        $('#inm2').val(round15(mval));
       }else {
         hval = $('#inh2').val();
         hval++;
@@ -279,9 +283,7 @@ function evaluateshown(speed) {
         $('#inm2').val(00);
       }
     }
-  }else {
-    showline('#out2', speed);
-  }
+    
   if ((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00))) {
     hideline('#in3', speed);
     hideline('#out3', speed);
