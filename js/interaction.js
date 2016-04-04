@@ -44,7 +44,14 @@ $( document ).ready(function() {
   $( '#punchout' ).bind('click', function() { punchout(); });
 });
 function punchin(){
-  
+  var line = findinline();
+  if (line = 999) {
+    alert('Error: You have already used the maximum number of entries for today.');
+  }else {
+    var dt = new Date($.now());
+    $('#inh' + line).val(dt.getHours());
+    $('#inm' + line).val(dt.getMinutes());
+  }
 }
 function punchout() {
   
