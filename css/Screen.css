@@ -127,7 +127,7 @@ form {
 	margin-left: 0.875em; 
 }
 
-#login_form input[type=text]{
+#login_form input[type=text], input[type=password]{
 	border-radius: 0.3125em;
 	font-size: 1em;
 	margin: 0.875em;
