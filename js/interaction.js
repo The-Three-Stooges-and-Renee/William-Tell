@@ -49,6 +49,34 @@ function punchin(){
 function punchout() {
   
 }
+function findline() {
+  var firstopenline = 0;
+  if (!((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00)))) {
+    firstopenline = 1;
+  }
+  if (!((($('#outh1').val() == 0) || ($('#outh1').val() == 00)) && (($('#outm1').val() == 0) || ($('#outm1').val() == 00)))) {
+    firstopenline = 1;
+  }
+  
+  if (!((($('#inh2').val() == 0) || ($('#inh2').val() == 00)) && (($('#inm2').val() == 0) || ($('#inm2').val() == 00)))) {
+    firstopenline = 2;
+  }
+  if (!((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00)))) {
+    firstopenline = 2;
+  }  
+  
+  if (!((($('#inh3').val() == 0) || ($('#inh3').val() == 00)) && (($('#inm3').val() == 0) || ($('#inm3').val() == 00)))) {
+    firstopenline = 3;
+  }
+  if (!((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00)))) {
+    firstopenline = 3;
+  }
+  
+  if (!((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00)))) {
+    firstopenline = 4;
+  }
+  return firstopenline;
+}
 function readcookie(cookiename) {
   var realname = cookiename + "=";
   var cookarray = document.cookie.split(';');
@@ -159,7 +187,7 @@ function showline(lineid, speed) {
   $( lineid ).addClass('jshide').removeClass('hidden');
 }
 function evaluateshown(speed) {
-  var firstopenline = 0;
+  
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
     hideline('#out1', speed);
     hideline('#in2', speed);
@@ -169,7 +197,6 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
-    firstopenline = 1;
     showline('#out1', speed);
   }
   if ((($('#outh1').val() == 0) || ($('#outh1').val() == 00)) && (($('#outm1').val() == 0) || ($('#outm1').val() == 00))) {
@@ -180,7 +207,6 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
-    firstopenline = 1;
     showline('#in2', speed);
   }
   
@@ -191,7 +217,6 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
-    firstopenline = 2;
     showline('#out2', speed);
   }
   if ((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00))) {
@@ -200,7 +225,6 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
-    firstopenline = 2;
     showline('#in3', speed);
   }  
   
@@ -209,21 +233,18 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
-    firstopenline = 3;
     showline('#out3', speed);
   }
   if ((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00))) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
-    firstopenline = 3;
     showline('#in4', speed);
   }
   
   if ((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00))) {
     hideline('#out4', speed);
   }else {
-    firstopenline = 4;
     showline('#out4', speed);
   }
 }
