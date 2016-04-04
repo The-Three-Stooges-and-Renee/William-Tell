@@ -96,9 +96,6 @@ function findoutline() {
       }
     }
   }
-  
- 
-  
   return firstopenline;
 }
 function readcookie(cookiename) {
