@@ -306,8 +306,8 @@ function round15(inpt) {
           rounded = 30;
         }else {
           rounded = 45;
-        }
-        else {
+        }   
+      }else {
           if (inpt < 60) {
             if (inpt < 52) {
               rounded = 45;
@@ -319,7 +319,6 @@ function round15(inpt) {
             return false;
           }
         }
-      }
     }
   }
   return rounded;
