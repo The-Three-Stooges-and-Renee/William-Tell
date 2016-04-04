@@ -51,10 +51,19 @@ function punchin(){
     var dt = new Date($.now());
     $('#inh' + line).val(dt.getHours());
     $('#inm' + line).val(dt.getMinutes());
+    evaluateshown(1000);
   }
 }
 function punchout() {
-  
+  var line = findoutline();
+  if (line == 999) {
+    alert('Error: You have already used the maximum number of entries for today.');
+  }else {
+    var dt = new Date($.now());
+    $('#outh' + line).val(dt.getHours());
+    $('#outm' + line).val(dt.getMinutes());
+    evaluateshown(1000);
+  }
 }
 function findinline() {
   var firstopenline = 0;
