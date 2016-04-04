@@ -418,6 +418,9 @@ function process24hr(io, line) {
     hval = (hval - 12);
     $('#' + io + 'h' + line).val(hval);
   }
+  if ($('#' + io + 'm' + line).val() == '0') {
+    $('#' + io + 'm' + line).val() == '00';
+  }
 }
 function evaluateshown(speed) {
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
