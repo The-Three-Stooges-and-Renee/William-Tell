@@ -227,7 +227,8 @@ function evaluateshown(speed) {
     hideline('#out3', speed);
     hideline('#in4', speed);
     hideline('#out4', speed);
-    
+  }else {
+    showline('#out1', speed);
     mval = $('#inm1').val();
     if (!((mval == 00) || (mval == 0))) {
       if (!(round15(mval) == 60)) {
@@ -239,8 +240,6 @@ function evaluateshown(speed) {
         $('#inm1').val(00);
       }
     }
-  }else {
-    showline('#out1', speed);
   }
   if ((($('#outh1').val() == 0) || ($('#outh1').val() == 00)) && (($('#outm1').val() == 0) || ($('#outm1').val() == 00))) {
     hideline('#in2', speed);
@@ -250,6 +249,8 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
     
+  }else {
+    showline('#in2', speed);
     mval = $('#outm1').val();
     if (!((mval == 00) || (mval == 0))) {
       if (!(round15(mval) == 60)) {
@@ -261,8 +262,6 @@ function evaluateshown(speed) {
         $('#outm1').val(00);
       }
     }
-  }else {
-    showline('#in2', speed);
   }
   
   if ((($('#inh2').val() == 0) || ($('#inh2').val() == 00)) && (($('#inm2').val() == 0) || ($('#inm2').val() == 00))) {
@@ -290,6 +289,8 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
     
+  }else {
+    showline('#in3', speed);
     if (!(($('#outm2').val() == 00) || ($('#outm2').val() == 0))) {
       if (!(round15($('#outm2')) == 60)) {
         $('#outm2').val(round15($('#outm2')));
@@ -300,15 +301,13 @@ function evaluateshown(speed) {
         $('#outm2').val(00);
       }
     }
-  }else {
-    showline('#in3', speed);
   }  
   
   if ((($('#inh3').val() == 0) || ($('#inh3').val() == 00)) && (($('#inm3').val() == 0) || ($('#inm3').val() == 00))) {
     hideline('#out3', speed);
     hideline('#in4', speed);
     hideline('#out4', speed);
-    
+  }else {
     if (!(($('#inm3').val() == 00) || ($('#inm3').val() == 0))) {
       if (!(round15($('#inm3')) == 60)) {
         $('#inm3').val(round15($('#inm3')));
@@ -319,13 +318,12 @@ function evaluateshown(speed) {
         $('#inm3').val(00);
       }
     }
-  }else {
     showline('#out3', speed);
   }
   if ((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00))) {
     hideline('#in4', speed);
     hideline('#out4', speed);
-    
+  }else {
     if (!(($('#outm3').val() == 00) || ($('#outm3').val() == 0))) {
       if (!(round15($('#outm3')) == 60)) {
         $('#outm3').val(round15($('#outm3')));
@@ -336,13 +334,12 @@ function evaluateshown(speed) {
         $('#outm3').val(00);
       }
     }
-  }else {
     showline('#in4', speed);
   }
   
   if ((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00))) {
     hideline('#out4', speed);
-    
+  }else {
     if (!(($('#inm4').val() == 00) || ($('#inm4').val() == 0))) {
       if (!(round15($('#inm4')) == 60)) {
         $('#inm4').val(round15($('#inm4')));
@@ -353,11 +350,10 @@ function evaluateshown(speed) {
         $('#inm4').val(00);
       }
     }
-  }else {
     showline('#out4', speed);
   }
   
-  if ((($('#outh4').val() == 0) || ($('#outh4').val() == 00)) && (($('#outm4').val() == 0) || ($('#outm4').val() == 00))) {
+  if (!((($('#outh4').val() == 0) || ($('#outh4').val() == 00)) && (($('#outm4').val() == 0) || ($('#outm4').val() == 00)))) {
     if (!(($('#outm4').val() == 00) || ($('#outm4').val() == 0))) {
       if (!(round15($('#outm4')) == 60)) {
         $('#outm4').val(round15($('#outm4')));
