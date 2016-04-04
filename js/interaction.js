@@ -23,23 +23,108 @@ $( document ).ready(function() {
     evaluateshown(200);
   });
 
-  $( '#inh1' ).bind('input', function() { evaluateshown(1000); });
-  $( '#inm1' ).bind('input', function() { evaluateshown(1000); });
-  $( '#inh2' ).bind('input', function() { evaluateshown(1000); });
-  $( '#inm2' ).bind('input', function() { evaluateshown(1000); });
-  $( '#inh3' ).bind('input', function() { evaluateshown(1000); });
-  $( '#inm3' ).bind('input', function() { evaluateshown(1000); });
-  $( '#inh4' ).bind('input', function() { evaluateshown(1000); });
-  $( '#inm4' ).bind('input', function() { evaluateshown(1000); });
+  $( '#inh1' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#inm1' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#inh2' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#inm2' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#inh3' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#inm3' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#inh4' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#inm4' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
   
-  $( '#outh1' ).bind('input', function() { evaluateshown(1000); });
-  $( '#outm1' ).bind('input', function() { evaluateshown(1000); });
-  $( '#outh2' ).bind('input', function() { evaluateshown(1000); });
-  $( '#outm2' ).bind('input', function() { evaluateshown(1000); });
-  $( '#outh3' ).bind('input', function() { evaluateshown(1000); });
-  $( '#outm3' ).bind('input', function() { evaluateshown(1000); });
-  $( '#outh4' ).bind('input', function() { evaluateshown(1000); });
-  $( '#outm4' ).bind('input', function() { evaluateshown(1000); });
+  $( '#outh1' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#outm1' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#outh2' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#outm2' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#outh3' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#outm3' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#outh4' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  $( '#outm4' ).bind('input', function() { 
+    evaluateshown(1000); 
+  });
+  
+  
+  $( '#inh1' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#inm1' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#inh2' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#inm2' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#inh3' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#inm3' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#inh4' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#inm4' ).bind('change', function() { 
+    roundall(); 
+  });
+  
+  $( '#outh1' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#outm1' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#outh2' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#outm2' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#outh3' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#outm3' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#outh4' ).bind('change', function() { 
+    roundall(); 
+  });
+  $( '#outm4' ).bind('change', function() { 
+    roundall(); 
+  });
+  
+  
   $( '#punchin' ).bind('click', function() { punchin(); });
   $( '#punchout' ).bind('click', function() { punchout(); });
 });
