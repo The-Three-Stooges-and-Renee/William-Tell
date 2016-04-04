@@ -49,33 +49,40 @@ function punchin(){
 function punchout() {
   
 }
-function findline() {
+function findinline() {
   var firstopenline = 0;
-  if (!((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00)))) {
+  if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
     firstopenline = 1;
   }
-  if (!((($('#outh1').val() == 0) || ($('#outh1').val() == 00)) && (($('#outm1').val() == 0) || ($('#outm1').val() == 00)))) {
-    firstopenline = 1;
-  }
-  
-  if (!((($('#inh2').val() == 0) || ($('#inh2').val() == 00)) && (($('#inm2').val() == 0) || ($('#inm2').val() == 00)))) {
+  if ((($('#inh2').val() == 0) || ($('#inh2').val() == 00)) && (($('#inm2').val() == 0) || ($('#inm2').val() == 00))) {
     firstopenline = 2;
   }
-  if (!((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00)))) {
-    firstopenline = 2;
-  }  
-  
-  if (!((($('#inh3').val() == 0) || ($('#inh3').val() == 00)) && (($('#inm3').val() == 0) || ($('#inm3').val() == 00)))) {
+  if ((($('#inh3').val() == 0) || ($('#inh3').val() == 00)) && (($('#inm3').val() == 0) || ($('#inm3').val() == 00))) {
     firstopenline = 3;
   }
-  if (!((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00)))) {
-    firstopenline = 3;
-  }
-  
-  if (!((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00)))) {
+  if ((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00))) {
     firstopenline = 4;
+  }else {
+    firstopenline = 999;
   }
   return firstopenline;
+}
+function findoutline() {
+  var firstopenline = 0;
+  if ((($('#outh1').val() == 0) || ($('#outh1').val() == 00)) && (($('#outm1').val() == 0) || ($('#outm1').val() == 00))) {
+    firstopenline = 1;
+  }
+  if ((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00))) {
+    firstopenline = 2;
+  }
+  if ((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00))) {
+    firstopenline = 3;
+  }
+  if ((($('#outh4').val() == 0) || ($('#outh4').val() == 00)) && (($('#outm4').val() == 0) || ($('#outm4').val() == 00))) {
+    firstopenline = 4;
+  }else {
+    firstopenline = 999;
+  }
 }
 function readcookie(cookiename) {
   var realname = cookiename + "=";
