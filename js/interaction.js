@@ -414,8 +414,8 @@ function process24hr(io, line) {
   var hval = $('#' + io + 'h' + line).val();
   if (hval > 12) {
     $('#am' + io + line).prop('checked', false);
-    $('#pm' + io + line).prop('checked', false);
-    hval += (-12);
+    $('#pm' + io + line).prop('checked', true);
+    hval = (hval - 12);
     $('#' + io + 'h' + line).val(hval);
   }
 }
