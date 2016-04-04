@@ -217,7 +217,7 @@ function showline(lineid, speed) {
   $( lineid ).addClass('jshide').removeClass('hidden');
 }
 function evaluateshown(speed) {
-  
+  var hval = 0;
   if ((($('#inh1').val() == 0) || ($('#inh1').val() == 00)) && (($('#inm1').val() == 0) || ($('#inm1').val() == 00))) {
     hideline('#out1', speed);
     hideline('#in2', speed);
@@ -226,11 +226,15 @@ function evaluateshown(speed) {
     hideline('#out3', speed);
     hideline('#in4', speed);
     hideline('#out4', speed);
+    
      if (!(($('#inm1').val() == 00) || ($('#inm1').val() == 0))) {
       if (!(round15($('#inm1')) == 60)) {
         $('#inm1').val(round15($('#inm1')));
       }else {
-        
+        hval = $('#inh1).val();
+        hval++;
+        $('#inh1').val(hval);
+        $('#inm1').val(00);
       }
     }
   }else {
