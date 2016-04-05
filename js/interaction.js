@@ -6,7 +6,6 @@ $( document ).ready(function() {
   
   
   $( '#date' ).bind('input', function(){
-    //window.location.replace('index.php?date=' + $('#date').val());
     $.ajax({
       url: ('http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $('#date').val()),
       crossDomain: true,
@@ -15,12 +14,14 @@ $( document ).ready(function() {
       },
       success: function(output, status, xhr) {
         processcookies(readcookie($('#date').val()) );
+        evaluateshown(0);
       },
       error: function(output, status, xhr) {
         processcookies(readcookie($('#date').val()) );
+        evaluateshown(0);
       }
     });
-    evaluateshown(0);
+    
   });
 
   $( '#inh1' ).bind('input', function() { 
