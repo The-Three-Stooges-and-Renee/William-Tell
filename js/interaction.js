@@ -124,10 +124,70 @@ $( document ).ready(function() {
     roundall(); 
   });
   
+  $( '#pmin1' ).bind('change', function() {
+    if ($('#pmin1').is(':checked')) {
+       setpm('out1');
+       setpm('in2');
+       setpm('out2');
+       setpm('in3');
+       setpm('out3');
+       setpm('in4');
+       setpm('out4');
+    }
+  });
+  $( '#pmout1' ).bind('change', function() {
+    if ($('#pmout1').is(':checked')) {
+       setpm('in2');
+       setpm('out2');
+       setpm('in3');
+       setpm('out3');
+       setpm('in4');
+       setpm('out4');
+    }
+  });
+  $( '#pmin2' ).bind('change', function() {
+    if ($('#pmin2').is(':checked')) {
+       setpm('out2');
+       setpm('in3');
+       setpm('out3');
+       setpm('in4');
+       setpm('out4');
+    }
+  });
+  $( '#pmout2' ).bind('change', function() {
+    if ($('#pmout2').is(':checked')) {
+       setpm('in3');
+       setpm('out3');
+       setpm('in4');
+       setpm('out4');
+    }
+  });
+  $( '#pmin3' ).bind('change', function() {
+    if ($('#pmin3').is(':checked')) {
+       setpm('out3');
+       setpm('in4');
+       setpm('out4');
+    }
+  });
+  $( '#pmout3' ).bind('change', function() {
+    if ($('#pmout3').is(':checked')) {
+       setpm('in4');
+       setpm('out4');
+    }
+  });
+  $( '#pmin4' ).bind('change', function() {
+    if ($('#pmin4').is(':checked')) {
+       setpm('out4');
+    }
+  });
   
   $( '#punchin' ).bind('click', function() { punchin(); });
   $( '#punchout' ).bind('click', function() { punchout(); });
 });
+function setpm(line) {
+  $('#am' + line).prop('checked', false);
+  $('#pm' + line).prop('checked', true);
+}
 function punchin(){
   var line = findinline();
   if (line == 999) {
