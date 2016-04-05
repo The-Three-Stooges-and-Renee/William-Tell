@@ -18,9 +18,9 @@ $( document ).ready(function() {
       },
       error: function(output, status, xhr) {
         processcookies(readcookie($('#date').val()) );
-      },
+      }
     });
-    evaluateshown(200);
+    evaluateshown(0);
   });
 
   $( '#inh1' ).bind('input', function() { 
