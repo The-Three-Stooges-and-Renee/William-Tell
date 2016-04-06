@@ -287,6 +287,13 @@ function processcookies(cookievalue) {
     }else {
       $('#amin1').prop('checked', false);
       $('#pmin1').prop('checked', true);
+      setpm('out1');
+      setpm('in2');
+      setpm('out2');
+      setpm('in3');
+      setpm('out3');
+      setpm('in4');
+      setpm('out4');
     }
     
     if (keys[9].replace('inam2=', '')=='True') {
@@ -295,6 +302,11 @@ function processcookies(cookievalue) {
     }else {
       $('#amin2').prop('checked', false);
       $('#pmin2').prop('checked', true);
+      setpm('out2');
+      setpm('in3');
+      setpm('out3');
+      setpm('in4');
+      setpm('out4');
     }
     
     if (keys[10].replace('inam3=', '')=='True') {
@@ -303,6 +315,9 @@ function processcookies(cookievalue) {
     }else {
       $('#amin3').prop('checked', false);
       $('#pmin3').prop('checked', true);
+      setpm('out3');
+      setpm('in4');
+      setpm('out4');
     }
     
     if (keys[11].replace('inam4=', '')=='True') {
@@ -311,6 +326,7 @@ function processcookies(cookievalue) {
     }else {
       $('#amin4').prop('checked', false);
       $('#pmin4').prop('checked', true);
+      setpm('out4');
     }
     
     $( '#outh1' ).val(keys[12].replace('outh1=', ''));
@@ -329,6 +345,12 @@ function processcookies(cookievalue) {
     }else {
       $('#amout1').prop('checked', false);
       $('#pmout1').prop('checked', true);
+      setpm('in2');
+      setpm('out2');
+      setpm('in3');
+      setpm('out3');
+      setpm('in4');
+      setpm('out4');
     }
     
     if (keys[21].replace('outam2=', '')=='True') {
@@ -337,6 +359,10 @@ function processcookies(cookievalue) {
     }else {
       $('#amout2').prop('checked', false);
       $('#pmout2').prop('checked', true);
+      setpm('in3');
+      setpm('out3');
+      setpm('in4');
+      setpm('out4');
     }
     
     if (keys[22].replace('outam3=', '')=='True') {
@@ -345,6 +371,8 @@ function processcookies(cookievalue) {
     }else {
       $('#amout3').prop('checked', false);
       $('#pmout3').prop('checked', true);
+      setpm('in4');
+      setpm('out4');
     }
     
     if (keys[23].replace('outam4=', '')=='True') {
