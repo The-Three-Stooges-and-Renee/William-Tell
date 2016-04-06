@@ -506,6 +506,51 @@ function process24hr(io, line) {
     $('#pm' + io + line).prop('checked', true);
     hval = (hval - 12);
     $('#' + io + 'h' + line).val(hval);
+    if (io=='in') {
+      if (line==1) {
+        setpm('out1');
+        setpm('in2');
+        setpm('out2');
+        setpm('in3');
+        setpm('out3');
+        setpm('in4');
+        setpm('out4');
+      }
+      if (line==2) {
+        setpm('out2');
+        setpm('in3');
+        setpm('out3');
+        setpm('in4');
+        setpm('out4');
+      }
+      if (line==3) {
+        setpm('out3');
+        setpm('in4');
+        setpm('out4');
+      }
+      if (line==4) {
+        setpm('out4');
+      }
+    }else {
+      if (line==1) {
+        setpm('in2');
+        setpm('out2');
+        setpm('in3');
+        setpm('out3');
+        setpm('in4');
+        setpm('out4');
+      }
+      if (line==2) {
+        setpm('in3');
+        setpm('out3');
+        setpm('in4');
+        setpm('out4');
+      }
+      if (line==3) {
+        setpm('in4');
+        setpm('out4');
+      }
+    }
   }
   if ($('#' + io + 'm' + line).val() == 0) {
     $('#' + io + 'm' + line).val() == '00';
