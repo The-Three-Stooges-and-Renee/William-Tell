@@ -49,7 +49,7 @@
 
   index.php
   
-  Designed by: Dean Nelson and Renée Weaver
+  Designed by: Dean Nelson and Renée Weaver with assistance from Brian Semrau
   PHP and JavaScript developed by: Brian Semrau
   
   Purpose: To serve as the main page in our project.  This page works as the front end
