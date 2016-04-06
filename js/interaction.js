@@ -3,7 +3,48 @@ $( document ).ready(function() {
   hideline('.jshide', 0);
   showline('.jsshow', 0);
   evaluateshown(0);
-  
+  if ($('#pmin1').is(':checked')) {
+    setpm('out1');
+    setpm('in2');
+    setpm('out2');
+    setpm('in3');
+    setpm('out3');
+    setpm('in4');
+    setpm('out4');
+  }
+  if ($('#pmout1').is(':checked')) {
+    setpm('in2');
+    setpm('out2');
+    setpm('in3');
+    setpm('out3');
+    setpm('in4');
+    setpm('out4');
+  }
+  if ($('#pmin2').is(':checked')) {
+    setpm('out2');
+    setpm('in3');
+    setpm('out3');
+    setpm('in4');
+    setpm('out4');
+  }  
+  if ($('#pmout2').is(':checked')) {
+    setpm('in3');
+    setpm('out3');
+    setpm('in4');
+    setpm('out4');
+  }
+  if ($('#pmin3').is(':checked')) {
+    setpm('out3');
+    setpm('in4');
+    setpm('out4');
+  }
+  if ($('#pmout3').is(':checked')) {
+    setpm('in4');
+    setpm('out4');
+  }
+  if ($('#pmin4').is(':checked')) {
+    setpm('out4');
+  }
   
   $( '#date' ).bind('input', function(){
     $.ajax({
