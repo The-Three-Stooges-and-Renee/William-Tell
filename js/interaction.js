@@ -7,7 +7,7 @@ $( document ).ready(function() {
   
   $( '#date' ).bind('input', function(){
     $.ajax({
-      url: ('http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&date=' + $('#date').val()),
+      url: ('http://submit-iit-timesheet.geekkidconsulting.com/default.aspx?action=pull&meth=ajax&date=' + $('#date').val()),
       crossDomain: true,
       xhrFields: {
         withCredentials: true
