@@ -94,7 +94,7 @@ form {
   display: none;
 }
 .invalid {
-  border-style: outset;
+  border-style: solid;
   border-color: #ff471a;
 }
 .valid {
