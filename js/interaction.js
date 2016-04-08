@@ -66,7 +66,7 @@ $( document ).ready(function() {
   });
 
   $( '#inh1' ).bind('input', function() { 
-    if (!(($('#inh1') + "").match(/^\d+$/))) {
+    if (!(Math.floor($('#inh1').val()) == $('#inh1').val() && $.isNumeric($('#inh1').val())))
       $('#inh1').removeClass('valid');
       $('#inh1').addClass('invalid');
     }else {
