@@ -93,6 +93,10 @@ form {
 .hidden {
   display: none;
 }
+.invalid {
+  border-style: outset;
+  border-color: #ff471a;
+}
 
 #iit_banner {
 	background-color: #C40C15;
