@@ -66,6 +66,11 @@ $( document ).ready(function() {
   });
 
   $( '#inh1' ).bind('input', function() { 
+    if (!(($('#inh1') + "").match(/^\d+$/))) {
+      $('#inh1').addClass('invalid');
+    }else {
+      $('#inh1').removeClass('invalid');
+    }
     evaluateshown(1000); 
   });
   $( '#inm1' ).bind('input', function() { 
