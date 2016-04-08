@@ -97,6 +97,9 @@ form {
   border-style: outset;
   border-color: #ff471a;
 }
+.valid {
+  border-style: none;
+}
 
 #iit_banner {
 	background-color: #C40C15;
