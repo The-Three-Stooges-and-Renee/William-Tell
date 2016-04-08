@@ -66,10 +66,10 @@ $( document ).ready(function() {
   });
 
   $( '#inh1' ).bind('input', function() { 
-    if (!(Math.floor($('#inh1').val()) == $('#inh1').val() && $.isNumeric($('#inh1').val())))
+    if (!(Math.floor($('#inh1').val()) == $('#inh1').val() && $.isNumeric($('#inh1').val()))) {
       $('#inh1').removeClass('valid');
       $('#inh1').addClass('invalid');
-    }else {
+    }else{
       $('#inh1').removeClass('invalid');
       $('#inh1').addClass('valid');
     }
