@@ -10,9 +10,10 @@
 	</head>
 	<body class="Welcome">
     <div id="iit_banner">
+      <button name="signout" id="signout">Sign out</button>
       <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
     </div> <!-- end of iit_banner -->
-    <button name="signout" id="signout">Sign out</button>
+    
     <div id="nav_bar">
       <ul>
         <li><a href="#">Welcome</a></li>
