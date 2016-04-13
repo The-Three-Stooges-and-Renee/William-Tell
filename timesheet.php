@@ -86,7 +86,7 @@
       </ul>
     </div> <!-- end of nav_bar -->
 
-    <div id="form">
+    <div id="ts-form">
       <p>Select a date:</p>
       <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
         <input type="date" id="date" name="date" value="<?php echo $dat;?>" />
