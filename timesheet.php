@@ -72,6 +72,7 @@
   </head>
   <body>
     <div id="iit_banner">
+      <button name="signout" id="signout">Sign out</button>
       <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
     </div> <!-- end of iit_banner -->
 
