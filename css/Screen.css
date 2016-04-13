@@ -115,7 +115,7 @@ form {
 /* Login page */
 
 body {
-	background-image: url(http://webhomework.geekkidconsulting.com/iit-timesheet/Images/LoginPageBackground.jpg) no-repeat center center fixed;
+	background: url(http://webhomework.geekkidconsulting.com/iit-timesheet/Images/LoginPageBackground.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
