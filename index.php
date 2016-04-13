@@ -67,7 +67,7 @@
     <title>Submit timesheet</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <!--Lgit ink to CSS style sheets.-->
+    <!--Link to CSS style sheets.-->
     <link rel="stylesheet" type="text/css" href="css/Screen.css"/>
   </head>
   <body>
