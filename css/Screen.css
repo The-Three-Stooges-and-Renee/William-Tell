@@ -153,3 +153,7 @@ body {
 	font-size: 0.78125em;
 	margin: 0.875em;
 }
+
+#form1 {
+  background-color: transparent;
+}
