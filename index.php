@@ -12,7 +12,7 @@
     <div id="iit_banner">
       <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
     </div> <!-- end of iit_banner -->
-    <button name="Sign out">Sign out</button>
+    <button name="signout" id="signout">Sign out</button>
     <div id="nav_bar">
       <ul>
         <li><a href="#">Welcome</a></li>
