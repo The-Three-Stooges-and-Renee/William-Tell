@@ -70,7 +70,7 @@
     <!--Link to CSS style sheets.-->
     <link rel="stylesheet" type="text/css" href="css/Screen.css"/>
   </head>
-  <body class="Login">
+  <body>
     <div id="iit_banner">
       <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
     </div> <!-- end of iit_banner -->
