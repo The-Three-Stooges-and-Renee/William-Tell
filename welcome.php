@@ -11,7 +11,7 @@
 			  type="text/css"
 			  href="Screen.css"/>
 	</head>
-	<body>
-		
+	<body class="Welcome">
+		<p>testing testing</p>
 	</body>
 </html>
