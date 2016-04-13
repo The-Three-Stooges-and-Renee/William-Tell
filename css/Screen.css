@@ -122,9 +122,6 @@ form {
 	border-width: 0.15em;
 	max-width: 15em;
 	padding: 5%;
-	position: fixed;
-	top: 5%;
-	left: 5%;
 }
 
 #login_form p {
