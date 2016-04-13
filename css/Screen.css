@@ -104,8 +104,18 @@ form {
 }
 
 #nav_bar {
-	background-color: #8A5456;
+	background-color: #8C001A;
 	min-height: 3em;
+}
+
+#nav_bar ul{
+	padding: 2%;
+}
+
+#nav_bar li {
+	display: inline;
+	color: #FFF;
+	padding: 5%;
 }
 
 #in1 {
