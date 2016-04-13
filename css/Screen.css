@@ -114,6 +114,10 @@ form {
 
 /* Login page */
 
+#body {
+	background-image: ../Images/LoginPageBackground.jpg
+}
+
 #login_form{
 	background-color: #D3D3D3;
 	border-color: #8C001A;
