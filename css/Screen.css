@@ -114,7 +114,7 @@ form {
 
 /* Login page */
 
-#body {
+.Login body {
 	background-image: ../Images/LoginPageBackground.jpg
 }
 
