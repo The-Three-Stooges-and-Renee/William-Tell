@@ -89,7 +89,7 @@
       <p>Select a date:</p>
       <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
         <input type="date" id="date" name="date" value="<?php echo $dat;?>" />
-        <input type="submit" name="submit" formaction="index.php" value="Load Date" class="jshide" />
+        <input type="submit" name="submit" formaction="timesheet.php" value="Load Date" class="jshide" />
       
         <div id="in1" class="time_in">
           <p>Time in:</p>
