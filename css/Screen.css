@@ -114,7 +114,13 @@ form {
 
 #nav_bar li {
 	display: inline;
-	padding: 5%;
+	color: #FFF;
+	padding: 1%;
+	border: 0.025em;
+	border-color: #46000D;
+	border-style: solid;
+	border-bottom-width: 0.015em;
+	border-radius: 1em;
 }
 
 #nav_bar a {
