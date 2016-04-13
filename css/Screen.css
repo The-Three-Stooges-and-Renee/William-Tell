@@ -124,7 +124,7 @@ body {
 }
 
 #login_form{
-	background-color: #D3D3D3;
+	background-color: rgba(211, 211, 211, 0.6);
 	border-color: #8C001A;
 	border-radius: 0.3125em;
 	border-style: solid;
