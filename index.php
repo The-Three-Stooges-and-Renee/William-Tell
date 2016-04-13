@@ -76,7 +76,13 @@
     </div> <!-- end of iit_banner -->
 
     <div id="nav_bar">
-      <h2>Hi!</h2>
+      <ul>
+        <li>Welcome</li>
+        <li>Academics</li>
+        <li>Finances</li>
+        <li>Work</li>
+        <li>OTS Downloads</li>
+      </ul>
     </div> <!-- end of nav_bar -->
 
     <div id="form">
