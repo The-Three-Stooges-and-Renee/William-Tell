@@ -114,8 +114,12 @@ form {
 
 #nav_bar li {
 	display: inline;
-	color: #FFF;
 	padding: 5%;
+}
+
+#nav_bar a {
+	text-decoration: none;
+	color: #FFF;
 }
 
 #in1 {
