@@ -77,10 +77,10 @@
 
     <div id="nav_bar">
       <ul>
-        <li><a href="#">Welcome</a></li>
+        <li><a href="index.php">Welcome</a></li>
         <li><a href="#">Academics</a></li>
         <li><a href="#">Finances</a></li>
-        <li><a href="#">Work</a></li>
+        <li><a href="timesheet.php">Work</a></li>
         <li><a href="#">OTS&nbsp;Downloads</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
