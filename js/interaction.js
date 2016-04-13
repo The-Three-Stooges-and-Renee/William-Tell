@@ -66,31 +66,28 @@ $( document ).ready(function() {
   });
 
   $( '#inh1' ).bind('input', function() { 
-    if (!(Math.floor($('#inh1').val()) == $('#inh1').val() && $.isNumeric($('#inh1').val()))) {
-      //$('#inh1').removeClass('valid');
-      $('#inh1').addClass('invalid');
-    }else{
-      $('#inh1').removeClass('invalid');
-      //$('#inh1').addClass('valid');
-    }
+    validatehour('#inh1');
     evaluateshown(1000); 
   });
   $( '#inm1' ).bind('input', function() { 
     evaluateshown(1000); 
   });
   $( '#inh2' ).bind('input', function() { 
+    validatehour('#inh2');
     evaluateshown(1000); 
   });
   $( '#inm2' ).bind('input', function() { 
     evaluateshown(1000); 
   });
   $( '#inh3' ).bind('input', function() { 
+    validatehour('#inh3');
     evaluateshown(1000); 
   });
   $( '#inm3' ).bind('input', function() { 
     evaluateshown(1000); 
   });
   $( '#inh4' ).bind('input', function() { 
+    validatehour('#inh4');
     evaluateshown(1000); 
   });
   $( '#inm4' ).bind('input', function() { 
@@ -98,24 +95,28 @@ $( document ).ready(function() {
   });
   
   $( '#outh1' ).bind('input', function() { 
+    validatehour('#outh1');
     evaluateshown(1000); 
   });
   $( '#outm1' ).bind('input', function() { 
     evaluateshown(1000); 
   });
   $( '#outh2' ).bind('input', function() { 
+    validatehour('#outh2');
     evaluateshown(1000); 
   });
   $( '#outm2' ).bind('input', function() { 
     evaluateshown(1000); 
   });
   $( '#outh3' ).bind('input', function() { 
+    validatehour('#outh3');
     evaluateshown(1000); 
   });
   $( '#outm3' ).bind('input', function() { 
     evaluateshown(1000); 
   });
   $( '#outh4' ).bind('input', function() { 
+    validatehour('#outh4');
     evaluateshown(1000); 
   });
   $( '#outm4' ).bind('input', function() { 
@@ -706,4 +707,11 @@ function round15(inpt) {
     }
   }
   return rounded;
+}
+function validatehour(element) {
+    if ((!(Math.floor($(element).val()) == $(element).val() && $.isNumeric($(element).val()))) || ($(element).val() > 24)) {
+      $(element).addClass('invalid');
+    }else{
+      $(element).removeClass('invalid');
+    }
 }
