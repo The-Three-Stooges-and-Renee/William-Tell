@@ -47,7 +47,7 @@
 
   <!--=================================================================================
 
-  index.php
+  timesheet.php
   
   Designed by: Dean Nelson and Renée Weaver with assistance from Brian Semrau
   PHP and JavaScript developed by: Brian Semrau
