@@ -77,11 +77,11 @@
 
     <div id="nav_bar">
       <ul>
-        <li>Welcome</li>
-        <li>Academics</li>
-        <li>Finances</li>
-        <li>Work</li>
-        <li>OTS Downloads</li>
+        <li><a href="#">Welcome</a></li>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">Finances</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">OTS&nbsp;Downloads</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
 
