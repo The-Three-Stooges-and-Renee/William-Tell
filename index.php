@@ -8,7 +8,7 @@
 		<!--Link to CSS style sheets.-->
 		<link rel="stylesheet" type="text/css" href="css/Screen.css"/>
 	</head>
-	<body class="Welcome">
+	<body class="welcome">
     <div id="iit_banner">
       <button name="signout" id="signout">Sign out</button>
       <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
