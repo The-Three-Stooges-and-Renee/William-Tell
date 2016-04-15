@@ -136,7 +136,9 @@ form {
   float: right;
 }
 
-/* Login page */
+/* =================================================================================
+															Login page
+ =================================================================================*/
 
 .login {
 	background: url(http://webhomework.geekkidconsulting.com/iit-timesheet/Images/LoginPageBackground.jpg) no-repeat center center fixed;
@@ -183,7 +185,9 @@ form {
   background-color: transparent;
 }
 
-/*Welcome Page*/
+/*=================================================================================
+															Welcome Page
+=================================================================================*/
 
 .welcome {
 	background: url(http://webhomework.geekkidconsulting.com/iit-timesheet/Images/WelcomePageBackground.jpg) no-repeat center center fixed;
@@ -194,7 +198,9 @@ form {
 	height: 100%;
 }
 
-/*timesheet*/
+/* =================================================================================
+															Timesheet Page
+ =================================================================================*/
 
 .timesheet {
 	background: url(http://webhomework.geekkidconsulting.com/iit-timesheet/Images/WelcomePageBackground.jpg) no-repeat center center fixed;
