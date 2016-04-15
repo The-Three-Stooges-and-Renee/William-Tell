@@ -83,6 +83,7 @@
         <li><a href="#">Finances</a></li>
         <li><a href="timesheet.php">Work</a></li>
         <li><a href="#">OTS&nbsp;Downloads</a></li>
+				<li><a href="#">Sign Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
 
