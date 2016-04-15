@@ -142,14 +142,14 @@
       
         <input type="submit" name="submit" value="Save Changes" />
       </form>
-    </div> <!-- end of form -->
-    <div id="punchclock" class="jsshow hidden">
-      <p class="emph">
-        Or:
-      </p>
-      <button name="punchin" id="punchin">Punch In!</button> <button name="punchout" id="punchout">Punch Out!</button>
+			<div id="punchclock" class="jsshow hidden">
+				<p class="emph">
+					Or:
+				</p>
+				<button name="punchin" id="punchin">Punch In!</button> <button name="punchout" id="punchout">Punch Out!</button>
     </div>
-    
+		</div> <!-- end of form -->
+        
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <!--<script src="js/jquery_ui/jquery-ui.min.js"></script>-->
     <script src="js/interaction.js" type="text/javascript"></script>
