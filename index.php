@@ -10,7 +10,6 @@
 	</head>
 	<body class="welcome">
     <div id="iit_banner">
-      <button name="signout" id="signout">Sign out</button>
       <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
     </div> <!-- end of iit_banner -->
     
@@ -21,6 +20,7 @@
         <li><a href="#">Finances</a></li>
         <li><a href="timesheet.php">Work</a></li>
         <li><a href="#">OTS&nbsp;Downloads</a></li>
+				<li><a href="#">Sign Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
 	</body>
