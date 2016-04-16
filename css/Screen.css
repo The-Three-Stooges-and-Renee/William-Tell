@@ -109,18 +109,18 @@ form {
 }
 
 #nav_bar ul{
-	padding: 2%;
+  padding: 2%;
 }
 
 #nav_bar li {
-	display: inline;
+	display: inline-block;
 	color: #FFF;
-	padding: 1%;
+	padding: 3%;
 	border: 0.025em;
 	border-color: #46000D;
 	border-style: solid;
 	border-bottom-width: 0.015em;
-	border-radius: 1em;
+	border-radius: 0.825em;
 }
 
 #nav_bar a {
@@ -230,3 +230,19 @@ form {
 	max-width: 50em;
 	padding: 5%;
 }
+
+
+/* =================================================================================
+															Media Query
+ =================================================================================*/
+
+@media screen and (min-width: 27.50em) { /*440px*/
+
+
+}
+
+@media screen and (min-width: 50em) { /*800px*/
+
+
+}
+
