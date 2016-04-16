@@ -239,10 +239,18 @@ form {
 @media screen and (min-width: 27.50em) { /*440px*/
 
 
+#nav_bar li {
+	padding: 2%;
 }
 
-@media screen and (min-width: 50em) { /*800px*/
+}
 
+@media screen and (min-width: 43.75em) { /*700px*/
+
+#nav_bar li {
+	display: inline;
+	padding: 1%;
+}
 
 }
 
