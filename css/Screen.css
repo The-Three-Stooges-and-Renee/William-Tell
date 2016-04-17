@@ -314,5 +314,10 @@ form {
 	padding: 1%;
 }
 
+#welcome, #public-safety, #personal-id {
+	float: left;
+	min-width: 33.3%;
+	}	
+
 }
 
