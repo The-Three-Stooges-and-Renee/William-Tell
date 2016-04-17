@@ -23,12 +23,14 @@
 				<li><a href="#">Sign Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
+
     <div id="welcome">
       <h2>Welcome to the Illinois Tech Portal</h2>
       <a href="http://web.iit.edu/university-calendar">Happenings</a>
       <a href="https://iit.edu/news/iittoday/">News</a>
       <a href="http://phonebook.iit.edu/">University Phonebook</a>
     </div><!--End of Welcome-->
+
     <div id="public-safety">
       <h2>Public Safety</h2>
       <h3>Emergency Numbers</h3>
@@ -48,5 +50,12 @@
       <a href="http://blogs.iit.edu/public_safety/">Incident Reports</a>
       <a href="https://www.facebook.com/IITPublicSafety">Public Safety Facebook Page</a>
     </div><!--End of Public Safety-->
+
+    <div id="personal-id">
+      <h2>IIT Personal ID Numbers</h2>
+      <h3>Banner CWID Number:</h3><p>A20001234</p>
+      <h3>Registration Pin:</h3><p>123456</p>
+    </div><!--End of Personal ID numbers-->
+    
 	</body>
 </html>
