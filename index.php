@@ -23,5 +23,11 @@
 				<li><a href="#">Sign Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
+    <div>
+      <h2>Welcome to the Illinois Tech Portal</h2>
+      <a href="http://web.iit.edu/university-calendar">Happenings</a>
+      <a href="https://iit.edu/news/iittoday/">News</a>
+      <a href="http://phonebook.iit.edu/">University Phonebook</a>
+    </div><!--End of Welcome-->
 	</body>
 </html>
