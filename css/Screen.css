@@ -310,7 +310,7 @@ form {
 @media screen and (min-width: 43.75em) { /*700px*/
 
 #nav_bar li {
-	display: inline;
+	display: inline-block;
 	padding: 1%;
 }
 
