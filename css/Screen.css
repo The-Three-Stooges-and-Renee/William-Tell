@@ -76,7 +76,7 @@ html {
 }
 
 input[type=date]{
-	background-color: ##FEBFD2;
+	background-color: #FEBFD2;
 	display: block;
 	margin-left: 0.875em;
 	border-radius: 0.3125em;
@@ -244,6 +244,10 @@ form {
 #ts-form p{
 	margin-left: 0.875em;
 	padding-top: 3%;
+}
+
+#save {
+	margin: 0.875em;
 }
 
 
