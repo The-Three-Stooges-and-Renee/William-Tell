@@ -236,15 +236,15 @@ form {
 	opacity: 0.8;
 }
 
-#public-safety{
+#personal-id {
 	background-color: bisque;
 	opacity: 0.8;
 }
-
-#personal-id {
+#public-safety{
 	background-color: tan;
 	opacity: 0.8;
 }
+
 
 /* =================================================================================
 															Timesheet Page
