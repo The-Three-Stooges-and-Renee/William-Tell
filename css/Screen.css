@@ -75,6 +75,36 @@ html {
 	font-family: futura, arial, sans-serif;
 }
 
+h2 {
+	font-size: 1.5em;
+	color: #8C001A;
+  padding: 0.825em;
+}
+
+
+h3{
+	font-size: 1.25em;
+	color: #000;
+	margin: 0.25em;
+}
+
+h4 {
+	color: #8C001A;
+	margin-left: 0.825em;
+}
+
+p {
+	margin-left: 0.825em;
+	padding: 1%;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	padding: 4%;
+}
+
+
 input[type=date]{
 	background-color: #FEBFD2;
 	display: block;
@@ -169,9 +199,6 @@ form {
 	padding: 5%;
 }
 
-#login_form p {
-	margin-left: 0.875em; 
-}
 
 #login_form input[type=text], input[type=password]{
 	border-radius: 0.3125em;
@@ -257,7 +284,6 @@ form {
 }
 
 #ts-form p{
-	margin-left: 0.875em;
 	padding-top: 3%;
 	padding-bottom: 2%;
 }
