@@ -204,6 +204,21 @@ form {
 	height: 100%;
 }
 
+#welcome {
+	background-color: tan;
+	opacity: 0.8;
+}
+
+#public-safety{
+	background-color: bisque;
+	opacity: 0.8;
+}
+
+#personal-id {
+	background-color: tan;
+	opacity: 0.8;
+}
+
 /* =================================================================================
 															Timesheet Page
  =================================================================================*/
