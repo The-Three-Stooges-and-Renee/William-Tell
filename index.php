@@ -20,7 +20,7 @@
         <li><a href="#">Finances</a></li>
         <li><a href="timesheet.php">Work</a></li>
         <li><a href="#">OTS&nbsp;Downloads</a></li>
-				<li><a href="#">Sign Out</a></li>
+				<li><a href="#">Sign&nbsp;Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
 
@@ -56,6 +56,6 @@
       <h3>Banner CWID Number:</h3><p>A20001234</p>
       <h3>Registration Pin:</h3><p>123456</p>
     </div><!--End of Personal ID numbers-->
-    
+
 	</body>
 </html>
