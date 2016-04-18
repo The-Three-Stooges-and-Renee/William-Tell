@@ -4,7 +4,12 @@
       header('Location: http://submit-iit-timesheet.geekkidconsulting.com/login.aspx');
     }else {
       $cokval = explode("&", $_COOKIE["372fd75847c64826d41b24ac512d11803834447a"]);
-      $usr = ord(strtolower(str_replace("user=", "", $cokval[0]) - 96));
+      $usr = str_replace("user=", "", $cokval[0]);
+      $chars = str_split($usr);
+      $strbuilder = ""
+      foreach($chars as $char){
+        $strbuilder = ($strbuilder . (ord(strtolower($char)) - 96));
+      }
       $regpin = rand(100000, 999999 );
     }
     
