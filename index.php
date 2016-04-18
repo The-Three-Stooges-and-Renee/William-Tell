@@ -6,7 +6,7 @@
       $cokval = explode("&", $_COOKIE["372fd75847c64826d41b24ac512d11803834447a"]);
       $usr = str_replace("user=", "", $cokval[0]);
       $chars = str_split($usr);
-      $strbuilder = ""
+      $strbuilder = "20";
       foreach($chars as $char){
         $strbuilder = ($strbuilder . (ord(strtolower($char)) - 96));
       }
