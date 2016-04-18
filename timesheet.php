@@ -70,24 +70,24 @@
     <!--Link to CSS style sheets.-->
     <link rel="stylesheet" type="text/css" href="css/Screen.css"/>
   </head>
-  <body>
-    <div id="iit_banner">
-      <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
-    </div> <!-- end of iit_banner -->
+  <body class="timesheet">
+
+    <div class="logo"></div>
 
     <div id="nav_bar">
       <ul>
-        <li><a href="#">Welcome</a></li>
+        <li><a href="index.php">Welcome</a></li>
         <li><a href="#">Academics</a></li>
         <li><a href="#">Finances</a></li>
-        <li><a href="#">Work</a></li>
+        <li><a href="timesheet.php">Work</a></li>
         <li><a href="#">OTS&nbsp;Downloads</a></li>
+				<li><a href="#">Sign&nbsp;Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
 
-    <div id="form">
-      <p>Select a date:</p>
+    <div id="ts-form">
       <form action="http://submit-iit-timesheet.geekkidconsulting.com/default.aspx" method="get">
+				<p>Select a date:</p>
         <input type="date" id="date" name="date" value="<?php echo $dat;?>" />
         <input type="submit" name="submit" formaction="timesheet.php" value="Load Date" class="jshide" />
       
@@ -139,16 +139,16 @@
           <input type="radio" id="amout4" name="amout4" value="True" <?php if ($outam4=='True'){echo 'checked';}?>>AM<input type="radio" id="pmout4" name="amout4" value="False" <?php if ($outam4=='False'){echo 'checked';}?>>PM
         </div>
       
-        <input type="submit" name="submit" value="Save Changes" />
+        <input id="save" type="submit" name="submit" value="Save Changes" />
       </form>
-    </div> <!-- end of form -->
-    <div id="punchclock" class="jsshow hidden">
-      <p class="emph">
-        Or:
-      </p>
-      <button name="punchin" id="punchin">Punch In!</button> <button name="punchout" id="punchout">Punch Out!</button>
+			<div id="punchclock" class="jsshow hidden">
+				<p class="emph">
+					Or:
+				</p>
+				<button name="punchin" id="punchin">Punch In!</button> <button name="punchout" id="punchout">Punch Out!</button>
     </div>
-    
+		</div> <!-- end of form -->
+        
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <!--<script src="js/jquery_ui/jquery-ui.min.js"></script>-->
     <script src="js/interaction.js" type="text/javascript"></script>
