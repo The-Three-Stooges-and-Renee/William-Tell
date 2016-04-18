@@ -75,13 +75,13 @@
     <div class="logo"></div>
 
     <div id="nav_bar">
-      <ul>
-        <li><a href="index.php">Welcome</a></li>
-        <li><a href="#">Academics</a></li>
-        <li><a href="#">Finances</a></li>
-        <li><a href="timesheet.php">Work</a></li>
-        <li><a href="#">OTS&nbsp;Downloads</a></li>
-				<li><a href="#">Sign&nbsp;Out</a></li>
+      <ul class="nav">
+        <a href="index.php"><li>Welcome</li></a>
+        <a href="#"><li>Academics</li></a>
+        <a href="#"><li>Finances</li></a>
+        <a href="timesheet.php"><li>Work</li></a>
+        <a href="#"><li>OTS&nbsp;Downloads</li></a>
+		<a href="#"><li>Sign&nbsp;Out</li></a>
       </ul>
     </div> <!-- end of nav_bar -->
 
