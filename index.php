@@ -20,6 +20,7 @@
           $strbuilder = ($strbuilder . $char);
         }
       }
+      $strbuilder = ($strbuilder . " - " . $counte);
       $regpin = rand(100000, 999999 );
     }
     
