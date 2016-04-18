@@ -316,6 +316,12 @@ img {
   animation: fadein 1s;
 }
 
+#ts-form {
+  transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
  /* Real browsers */
 @keyframes fadein {
     from { opacity: 0; }
