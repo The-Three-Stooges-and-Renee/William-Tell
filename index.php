@@ -2,7 +2,12 @@
   if (!(isset($_COOKIE["372fd75847c64826d41b24ac512d11803834447a"])))
     {
       header('Location: http://submit-iit-timesheet.geekkidconsulting.com/login.aspx');
+    }else {
+      $cokval = explode("&", $_COOKIE["372fd75847c64826d41b24ac512d11803834447a"]);
+      $usr = str_replace("user=", "", $cokval[0]);
+      $regpin = int rand ( int 100000 , int 999999 )
     }
+    
 ?>
 <!Doctype HTML>
 <html lang="end">
@@ -36,8 +41,8 @@
 
     <div id="personal-id">
       <h2>IIT Personal ID Numbers</h2>
-      <h3>Banner CWID Number:</h3><p>A20001234</p>
-      <h3>Registration Pin:</h3><p>123456</p>
+      <h3>Banner CWID Number:</h3><p>A<?php echo $usr;?></p>
+      <h3>Registration Pin:</h3><p><?php echo $regpin;?></p>
     </div><!--End of Personal ID numbers-->
 
     <div id="public-safety">
