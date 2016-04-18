@@ -16,7 +16,7 @@
       $counte = 0;
       $addchars = "false";
       if ((($strbuilder).length) < 8){
-        $addchars = "true"
+        $addchars = "true";
       }
       foreach($chars as $char){
         $counte++;
