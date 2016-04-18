@@ -20,7 +20,7 @@
       }
       foreach($chars as $char){
         $counte++;
-        if (($addchars = "true") && ($counte < (8 - ($strbuilder).length)){
+        if (($addchars = "true") && ($counte < (8 - ($strbuilder).length))){
           $strbuilder = ($strbuilder . "0");
         }else {
           if (!($counte > 8)){
