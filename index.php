@@ -25,6 +25,8 @@
 		<link rel="stylesheet" type="text/css" href="css/Screen.css"/>
 	</head>
 	<body class="welcome">
+
+     <div class="logo"></div>
     
     <div id="nav_bar">
       <ul>
