@@ -10,6 +10,16 @@
       foreach($chars as $char){
         $strbuilder = ($strbuilder . (ord(strtolower($char)) - 96));
       }
+      $usr = $strbuilder;
+      $chars = str_split($usr);
+      $strbuilder = "";
+      $counte = 0;
+      foreach($chars as $char){
+        counte++;
+        if (!(counte > 8)){
+          strbuilder = (strbuilder . $char)
+        }
+      }
       $regpin = rand(100000, 999999 );
     }
     
