@@ -68,7 +68,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*End CSS reset Code*/
+/* =================================================================================
+														End of CSS Reset Code
+ =================================================================================*/
 
 
 html {
@@ -316,7 +318,7 @@ form {
 
 #welcome, #public-safety, #personal-id {
 	float: left;
-	min-width: 33.3%;
+	width: 33.3%;
 	}	
 
 }
