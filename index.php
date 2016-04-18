@@ -20,14 +20,30 @@
       }
       foreach($chars as $char){
         $counte++;
-        if (($addchars = "true") && ($counte > 2) && ($counte < (6-($strbuilder).length))){
-          $strbuilder = ($strbuilder . "0");
-        }else {
-          if (!($counte > 8)){
+        if (!($counte > 8)){
             $strbuilder = ($strbuilder . $char);
+        }
+      }
+      if (($strbuilder).length < 8){
+        if (($strbuilder).length == 3){
+          $strbuilder = ($strbuilder . "00000")
+        }else {
+          if (($strbuilder).length == 4){
+            $strbuilder = ($strbuilder . "0000")
+          }else {
+            if (($strbuilder).length == 5){
+              $strbuilder = ($strbuilder . "000")
+            }else {
+              if (($strbuilder).length == 6){
+                $strbuilder = ($strbuilder . "00")
+              }else {
+                if (($strbuilder).length == 7){
+                  $strbuilder = ($strbuilder . "0")
+                }
+              }
+            }
           }
         }
-        
       }
       $regpin = rand(100000, 999999 );
     }
