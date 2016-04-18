@@ -1,4 +1,11 @@
 <?php
+  $signout = $_GET['signout'];
+  if ($signout=="true")
+    {
+      setcookie('372fd75847c64826d41b24ac512d11803834447a', "hubahuba", time()-3600);
+      unset($_COOKIE['372fd75847c64826d41b24ac512d11803834447a']);
+      header('Location: http://submit-iit-timesheet.geekkidconsulting.com/login.aspx');
+    }
   if (!(isset($_COOKIE["372fd75847c64826d41b24ac512d11803834447a"])))
     {
       header('Location: http://submit-iit-timesheet.geekkidconsulting.com/login.aspx');
@@ -57,7 +64,7 @@
         <a href="#"><li>Finances</li></a>
         <a href="timesheet.php"><li>Work</li></a>
         <a href="#"><li>OTS&nbsp;Downloads</li></a>
-        <a href="#"><li>Sign&nbsp;Out</li></a>
+        <a href="index.php?signout=true"><li>Sign&nbsp;Out</li></a>
       </ul>
     </div> <!-- end of nav_bar -->
 
