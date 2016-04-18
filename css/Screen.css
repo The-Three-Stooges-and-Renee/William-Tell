@@ -321,7 +321,14 @@ img {
 }
 
 #ts-form {
-  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+  -moz-transition-duration: 1s;
+   -webkit-transition-duration: 1s;
+   -o-transition-duration: 1s;
+   transition-duration: 1s;
+   -moz-transition-timing-function: ease-in;
+   -webkit-transition-timing-function: ease-in;
+   -o-transition-timing-function: ease-in;
+   transition-timing-function: ease-in;
 }
 
  /* Real browsers */
