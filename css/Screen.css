@@ -74,17 +74,57 @@ table {
 html {
 	font-family: futura, arial, sans-serif;
 }
-input[type=date]{
-	background-color: lightpink;
-	display: block;
+
+h2 {
+	font-size: 1.5em;
+	color: #8C001A;
+  padding: 0.825em;
 }
+
+
+h3{
+	font-size: 1.25em;
+	color: #000;
+	margin: 0.25em;
+}
+
+h4 {
+	color: #8C001A;
+	margin-left: 0.825em;
+}
+
+p {
+	margin-left: 0.825em;
+	padding: 1%;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	padding: 4%;
+}
+
+
+input[type=date]{
+	background-color: #FEBFD2;
+	display: block;
+	margin-left: 0.875em;
+	border-radius: 0.3125em;
+	font-size: 1em;
+}
+
 input[type=number]{
 	background-color: lightgrey;
+	margin-left: 0.875em;
+	border-radius: 0.3125em;
+	font-size: 1em;	
+	width: 3em;
 }
 
 input[type=radio]{
 	width: 1.75em;
 }
+
 form {
 	background-color: #FAFAFA;
 	min-height: 10em;
@@ -109,18 +149,18 @@ form {
 }
 
 #nav_bar ul{
-	padding: 2%;
+  padding: 2%;
 }
 
 #nav_bar li {
-	display: inline;
+	display: inline-block;
 	color: #FFF;
-	padding: 1%;
+	padding: 3%;
 	border: 0.025em;
 	border-color: #46000D;
 	border-style: solid;
 	border-bottom-width: 0.015em;
-	border-radius: 1em;
+	border-radius: 0.825em;
 }
 
 #nav_bar a {
@@ -159,9 +199,6 @@ form {
 	padding: 5%;
 }
 
-#login_form p {
-	margin-left: 0.875em; 
-}
 
 #login_form input[type=text], input[type=password]{
 	border-radius: 0.3125em;
@@ -193,6 +230,21 @@ form {
 	background-size: cover;
 	height: 100%;
 }
+
+#welcome {
+	background-color: tan;
+	opacity: 0.8;
+}
+
+#personal-id {
+	background-color: bisque;
+	opacity: 0.8;
+}
+#public-safety{
+	background-color: tan;
+	opacity: 0.8;
+}
+
 
 /* =================================================================================
 															Timesheet Page
@@ -230,3 +282,42 @@ form {
 	max-width: 50em;
 	padding: 5%;
 }
+
+#ts-form p{
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+#save {
+	margin: 0.875em;
+}
+
+
+
+/* =================================================================================
+															Media Query
+ =================================================================================*/
+
+@media screen and (min-width: 27.50em) { /*440px*/
+
+
+#nav_bar li {
+	padding: 2%;
+}
+
+}
+
+@media screen and (min-width: 43.75em) { /*700px*/
+
+#nav_bar li {
+	display: inline-block;
+	padding: 1%;
+}
+
+#welcome, #public-safety, #personal-id {
+	float: left;
+	min-width: 33.3%;
+	}	
+
+}
+

@@ -82,7 +82,7 @@
         <li><a href="#">Finances</a></li>
         <li><a href="timesheet.php">Work</a></li>
         <li><a href="#">OTS&nbsp;Downloads</a></li>
-				<li><a href="#">Sign Out</a></li>
+				<li><a href="#">Sign&nbsp;Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
 
@@ -140,7 +140,7 @@
           <input type="radio" id="amout4" name="amout4" value="True" <?php if ($outam4=='True'){echo 'checked';}?>>AM<input type="radio" id="pmout4" name="amout4" value="False" <?php if ($outam4=='False'){echo 'checked';}?>>PM
         </div>
       
-        <input type="submit" name="submit" value="Save Changes" />
+        <input id="save" type="submit" name="submit" value="Save Changes" />
       </form>
 			<div id="punchclock" class="jsshow hidden">
 				<p class="emph">
