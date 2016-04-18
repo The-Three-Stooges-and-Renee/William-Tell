@@ -75,8 +75,6 @@
 	<div class="logo">
 		<img src="images/IIT_logo.png" alt="IIT logo">
 	</div>
-  
-    <div class="logo"></div>
 
     <div id="nav_bar">
       <ul class="nav">
