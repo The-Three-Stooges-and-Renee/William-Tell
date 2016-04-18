@@ -24,9 +24,12 @@
             $strbuilder = ($strbuilder . $char);
         }
       }
-      do {
-        $strbuilder = ($strbuilder . "0");
-      } while(strlen($strbuilder) < 8);
+      if (strlen($strbuilder) < 8){
+        do {
+          $strbuilder = ($strbuilder . "0");
+        } while(strlen($strbuilder) < 8);
+      }
+      
       $regpin = rand(100000, 999999 );
     }
     
