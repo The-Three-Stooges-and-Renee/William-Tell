@@ -15,12 +15,11 @@
       $strbuilder = "";
       $counte = 0;
       foreach($chars as $char){
-        $counte = ($counte + 1);
-        if (!(counte > 8)){
+        $counte++;
+        if (!($counte > 8)){
           $strbuilder = ($strbuilder . $char);
         }
       }
-      $strbuilder = ($strbuilder . " - " . $counte);
       $regpin = rand(100000, 999999 );
     }
     
