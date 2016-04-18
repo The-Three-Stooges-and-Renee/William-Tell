@@ -72,6 +72,8 @@
   </head>
   <body class="timesheet">
 
+    <div class="logo"></div>
+
     <div id="nav_bar">
       <ul>
         <li><a href="index.php">Welcome</a></li>
