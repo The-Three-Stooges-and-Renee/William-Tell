@@ -1,5 +1,6 @@
 $( document ).ready(function() {
   //$( '.jshide' ).addClass('hidden').removeClass('jshide');
+  $("input:text").select().focus();
   hideline('.jshide', 0);
   showline('.jsshow', 0);
   evaluateshown(0);
