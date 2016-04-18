@@ -53,9 +53,9 @@
         <li><a href="index.php">Welcome</a></li>
         <li><a href="#">Academics</a></li>
         <li><a href="#">Finances</a></li>
-        <li><a href="timesheet.php">Work</a></li>
+        <a href="timesheet.php"><li>Work</li></a>
         <li><a href="#">OTS&nbsp;Downloads</a></li>
-				<li><a href="#">Sign&nbsp;Out</a></li>
+		<li><a href="#">Sign&nbsp;Out</a></li>
       </ul>
     </div> <!-- end of nav_bar -->
 
