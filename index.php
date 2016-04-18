@@ -49,7 +49,7 @@
      <div class="logo"></div>
     
     <div id="nav_bar">
-      <ul>
+      <ul class="nav">
         <li><a href="index.php">Welcome</a></li>
         <li><a href="#">Academics</a></li>
         <li><a href="#">Finances</a></li>
