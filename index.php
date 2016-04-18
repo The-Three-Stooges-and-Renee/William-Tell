@@ -14,11 +14,20 @@
       $chars = str_split($usr);
       $strbuilder = "";
       $counte = 0;
+      $addchars = "false";
+      if ((($strbuilder).length) < 8){
+        $addchars = "true"
+      }
       foreach($chars as $char){
         $counte++;
-        if (!($counte > 8)){
-          $strbuilder = ($strbuilder . $char);
+        if (($addchars = "true") && ($counte < (8 - ($strbuilder).length)){
+          $strbuilder = ($strbuilder . "0");
+        }else {
+          if (!($counte > 8)){
+            $strbuilder = ($strbuilder . $char);
+          }
         }
+        
       }
       $regpin = rand(100000, 999999 );
     }
