@@ -46,7 +46,7 @@
 
     <div id="personal-id">
       <h2>IIT Personal ID Numbers</h2>
-      <h3>Banner CWID Number:</h3><p>A<?php echo $usr;?></p>
+      <h3>Banner CWID Number:</h3><p>A<?php echo $strbuilder;?></p>
       <h3>Registration Pin:</h3><p><?php echo $regpin;?></p>
     </div><!--End of Personal ID numbers-->
 
