@@ -75,7 +75,7 @@
     <div class="logo"></div>
 
     <div id="nav_bar">
-      <ul>
+      <ul class="nav">
         <a href="index.php"><li>Welcome</li></a>
         <a href="#"><li>Academics</li></a>
         <a href="#"><li>Finances</li></a>
