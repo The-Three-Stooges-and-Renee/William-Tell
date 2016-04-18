@@ -9,9 +9,6 @@
 		<link rel="stylesheet" type="text/css" href="css/Screen.css"/>
 	</head>
 	<body class="welcome">
-    <div id="iit_banner">
-      <h1>IIT Timesheet Project - you have successfully authenticated!</h1>
-    </div> <!-- end of iit_banner -->
     
     <div id="nav_bar">
       <ul>
