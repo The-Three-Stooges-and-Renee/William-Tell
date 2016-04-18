@@ -141,7 +141,8 @@ form {
 }
 
 .emph {
-  	color: #FFF;
+  color: #FFF;
+	font-size: 1.25em;
  	text-transform: uppercase;
 }
 
@@ -296,8 +297,8 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 5%;
-	max-width: 50em;
-	padding: 5%;
+	max-width: 40em;
+	padding: 3%;
 }
 
 #ts-form p{
