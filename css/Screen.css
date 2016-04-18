@@ -153,14 +153,14 @@ form {
 }
 
 #nav_bar li {
-	display: inline-block;
+	/*display: inline-block;
 	color: #FFF;
 	padding: 3%;
 	border: 0.025em;
 	border-color: #46000D;
 	border-style: solid;
 	border-bottom-width: 0.015em;
-	border-radius: 0.825em;
+	border-radius: 0.825em;*/
 }
 
 #nav_bar a {
@@ -308,7 +308,7 @@ form {
 @media screen and (min-width: 27.50em) { /*440px*/
 
 
-#nav_bar li {
+.nav a {
 	padding: 2%;
 }
 
@@ -316,7 +316,7 @@ form {
 
 @media screen and (min-width: 43.75em) { /*700px*/
 
-#nav_bar li {
+.nav a,li {
 	display: inline-block;
 	padding: 1%;
 }
