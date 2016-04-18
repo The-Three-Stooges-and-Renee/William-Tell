@@ -3,6 +3,7 @@
   if ($signout=="true")
     {
       setcookie("372fd75847c64826d41b24ac512d11803834447a", "", time()-3600);
+      header('Location: http://submit-iit-timesheet.geekkidconsulting.com/login.aspx');
     }
   if (!(isset($_COOKIE["372fd75847c64826d41b24ac512d11803834447a"])))
     {
