@@ -24,27 +24,10 @@
             $strbuilder = ($strbuilder . $char);
         }
       }
-      if (($strbuilder).length < 8){
-        if (($strbuilder).length == 3){
-          $strbuilder = ($strbuilder . "00000");
-        }else {
-          if (($strbuilder).length == 4){
-            $strbuilder = ($strbuilder . "0000");
-          }else {
-            if (($strbuilder).length == 5){
-              $strbuilder = ($strbuilder . "000");
-            }else {
-              if (($strbuilder).length == 6){
-                $strbuilder = ($strbuilder . "00");
-              }else {
-                if (($strbuilder).length == 7){
-                  $strbuilder = ($strbuilder . "0");
-                }
-              }
-            }
-          }
-        }
-      }
+      do {
+        $strbuilder = ($strbuilder . "0");
+      } while(($strbuilder).length < 8);
+      $strbuilder = ($strbuilder . " - " . ($strbuilder.length);
       $regpin = rand(100000, 999999 );
     }
     
