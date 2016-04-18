@@ -17,7 +17,7 @@
       foreach($chars as $char){
         $counte++;
         if (!(counte > 8)){
-          strbuilder = (strbuilder . $char);
+          $strbuilder = ($strbuilder . $char);
         }
       }
       $regpin = rand(100000, 999999 );
