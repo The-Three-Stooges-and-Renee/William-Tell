@@ -27,7 +27,7 @@
       do {
         $strbuilder = ($strbuilder . "0");
       } while(($strbuilder).length < 8);
-      $strbuilder = ($strbuilder . " - " . ($strbuilder.length));
+      $strbuilder = ($strbuilder + " - " + ($strbuilder).length);
       $regpin = rand(100000, 999999 );
     }
     
