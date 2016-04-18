@@ -15,7 +15,7 @@
       $strbuilder = "";
       $counte = 0;
       $addchars = "false";
-      if ((($strbuilder).length) < 8){
+      if ((strlen($strbuilder) < 8){
         $addchars = "true";
       }
       foreach($chars as $char){
@@ -26,8 +26,7 @@
       }
       do {
         $strbuilder = ($strbuilder . "0");
-      } while(($strbuilder).length < 8);
-      $strbuilder = ($strbuilder + " - " + ($strbuilder).length);
+      } while(strlen($strbuilder) < 8);
       $regpin = rand(100000, 999999 );
     }
     
