@@ -168,6 +168,10 @@ form {
 	color: #FFF;
 }
 
+.nav a {
+	display: inline-block;
+}
+
 #in1 {
 	display: inline;
 }
