@@ -254,6 +254,9 @@ form {
 	opacity: 0.8;
 }
 
+img {
+	max-width: 100%;
+}
 
 /* =================================================================================
 									Timesheet Page
@@ -312,6 +315,12 @@ form {
   -ms-animation: fadein 1s; /* Internet Explorer */
   -o-animation: fadein 1s; /* Opera < 12.1 */
   animation: fadein 1s;
+}
+
+#ts-form {
+  transition-property: all;
+	transition-duration: 15s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
  /* Real browsers */
