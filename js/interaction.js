@@ -439,7 +439,12 @@ function hideline(lineid, speed) {
 }
 function showline(lineid, speed) {
   //$( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
-  $( lineid ).addClass('jshide').removeClass('hidden');
+  if (speed==0) {
+    $( lineid ).addClass('jshide').removeClass('hidden');
+  }else {
+    $( lineid ).addClass('fadein').removeClass('hidden');
+  }
+  
 }
 
 function roundall() {
