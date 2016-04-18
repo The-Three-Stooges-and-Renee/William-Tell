@@ -153,24 +153,7 @@ form {
 }
 
 #nav_bar li {
-	/*display: inline-block;
-	color: #FFF;
-	padding: 3%;
-	border: 0.025em;
-	border-color: #46000D;
-	border-style: solid;
-	border-bottom-width: 0.015em;
-	border-radius: 0.825em;*/
-}
-
-#nav_bar a {
-	text-decoration: none;
-	color: #FFF;
-}
-
-.nav a {
 	display: inline-block;
-  display: inline-block;
 	color: #FFF;
 	padding: 3%;
 	border: 0.025em;
@@ -180,8 +163,20 @@ form {
 	border-radius: 0.825em;
 }
 
-#in1 {
-	display: inline;
+#nav_bar a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.nav a {
+  display: inline-block;
+	color: #FFF;
+	padding: 3%;
+	border: 0.025em;
+	border-color: #46000D;
+	border-style: solid;
+	border-bottom-width: 0.015em;
+	border-radius: 0.825em;
 }
 
 /* =================================================================================
