@@ -15,7 +15,7 @@
       $strbuilder = "";
       $counte = 0;
       foreach($chars as $char){
-        counte = (counte + 1);
+        $counte++;
         if (!(counte > 8)){
           strbuilder = (strbuilder . $char);
         }
