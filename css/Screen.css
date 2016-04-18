@@ -141,7 +141,8 @@ form {
 }
 
 .emph {
-
+  	color: #FFF;
+ 	text-transform: uppercase;
 }
 
 #iit_banner {
