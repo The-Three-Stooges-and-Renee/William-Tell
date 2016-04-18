@@ -140,6 +140,10 @@ form {
   border-color: #ff471a;
 }
 
+.emph {
+
+}
+
 #iit_banner {
 	background-color: #C40C15;
 	min-height: 5em;
@@ -298,7 +302,6 @@ img {
 #ts-form p{
 	padding-top: 3%;
 	padding-bottom: 2%;
-	color: #FFF;
 }
 
 #save {
