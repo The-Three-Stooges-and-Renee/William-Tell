@@ -321,9 +321,7 @@ img {
 }
 
 #ts-form {
-  transition-property: all;
-	transition-duration: 15s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 }
 
  /* Real browsers */
