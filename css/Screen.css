@@ -68,7 +68,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*End CSS reset Code*/
+/* =================================================================================
+														End of CSS Reset Code
+ =================================================================================*/
 
 
 html {
@@ -252,6 +254,9 @@ form {
 	opacity: 0.8;
 }
 
+img {
+	max-width: 100%;
+}
 
 /* =================================================================================
 									Timesheet Page
@@ -370,7 +375,7 @@ form {
 
 #welcome, #public-safety, #personal-id {
 	float: left;
-	min-width: 33.3%;
+	width: 33.3%;
 	}	
 
 }
