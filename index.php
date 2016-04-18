@@ -5,7 +5,7 @@
     }else {
       $cokval = explode("&", $_COOKIE["372fd75847c64826d41b24ac512d11803834447a"]);
       $usr = ord(strtolower(str_replace("user=", "", $cokval[0]) - 96));
-      $regpin = int rand ( int 100000 , int 999999 )
+      $regpin = int rand(100000 , 999999 );
     }
     
 ?>
