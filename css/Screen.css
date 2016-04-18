@@ -155,7 +155,23 @@ form {
 }
 
 #nav_bar li {
-	display: inline-block;
+	/*display: inline-block;
+	color: #FFF;
+	padding: 3%;
+	border: 0.025em;
+	border-color: #46000D;
+	border-style: solid;
+	border-bottom-width: 0.015em;
+	border-radius: 0.825em;*/
+}
+
+#nav_bar a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.nav a {
+  display: inline-block;
 	color: #FFF;
 	padding: 3%;
 	border: 0.025em;
@@ -165,17 +181,8 @@ form {
 	border-radius: 0.825em;
 }
 
-#nav_bar a {
-	text-decoration: none;
-	color: #FFF;
-}
-
-#in1 {
-	display: inline;
-}
-
 /* =================================================================================
-															Login page
+									Login page
  =================================================================================*/
 
 .login {
@@ -221,7 +228,7 @@ form {
 }
 
 /*=================================================================================
-															Welcome Page
+									Welcome Page
 =================================================================================*/
 
 .welcome {
@@ -249,7 +256,7 @@ form {
 
 
 /* =================================================================================
-															Timesheet Page
+									Timesheet Page
  =================================================================================*/
 
  /* latin */
@@ -294,6 +301,47 @@ form {
 	margin: 0.875em;
 }
 
+/* =================================================================================
+									Animations
+ =================================================================================*/
+
+.fadein {
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s; /* Firefox < 16 */
+  -ms-animation: fadein 1s; /* Internet Explorer */
+  -o-animation: fadein 1s; /* Opera < 12.1 */
+  animation: fadein 1s;
+}
+
+ /* Real browsers */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 
 /* =================================================================================
@@ -303,7 +351,7 @@ form {
 @media screen and (min-width: 27.50em) { /*440px*/
 
 
-#nav_bar li {
+.nav a {
 	padding: 2%;
 }
 
@@ -311,7 +359,7 @@ form {
 
 @media screen and (min-width: 43.75em) { /*700px*/
 
-#nav_bar li {
+.nav a,li {
 	display: inline-block;
 	padding: 1%;
 }
@@ -322,4 +370,3 @@ form {
 	}	
 
 }
-

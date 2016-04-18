@@ -8,18 +8,28 @@
       $chars = str_split($usr);
       $strbuilder = "20";
       foreach($chars as $char){
-        $strbuilder = ($strbuilder . (ord(strtolower($char)) - 96));
+        $strbuilder = ($strbuilder . (ord(strtolower($char)) - 95));
       }
       $usr = $strbuilder;
       $chars = str_split($usr);
       $strbuilder = "";
       $counte = 0;
+      $addchars = "false";
+      if (strlen($strbuilder) < 8){
+        $addchars = "true";
+      }
       foreach($chars as $char){
-        $counte = ($counte + 1);
-        if (!(counte > 8)){
-          $strbuilder = ($strbuilder . $char);
+        $counte++;
+        if (!($counte > 8)){
+            $strbuilder = ($strbuilder . $char);
         }
       }
+      if (strlen($strbuilder) < 8){
+        do {
+          $strbuilder = ($strbuilder . "0");
+        } while(strlen($strbuilder) < 8);
+      }
+      
       $regpin = rand(100000, 999999 );
     }
     
@@ -36,16 +46,18 @@
 	</head>
 	<body class="welcome">
 
-     <div class="logo"></div>
+		<div class="logo">
+			<img src="images/IIT_logo.png" alt="IIT logo">
+		</div>
     
     <div id="nav_bar">
-      <ul>
-        <li><a href="index.php">Welcome</a></li>
-        <li><a href="#">Academics</a></li>
-        <li><a href="#">Finances</a></li>
-        <li><a href="timesheet.php">Work</a></li>
-        <li><a href="#">OTS&nbsp;Downloads</a></li>
-				<li><a href="#">Sign&nbsp;Out</a></li>
+      <ul class="nav">
+        <a href="index.php"><li>Welcome</li></a>
+        <a href="#"><li>Academics</li></a>
+        <a href="#"><li>Finances</li></a>
+        <a href="timesheet.php"><li>Work</li></a>
+        <a href="#"><li>OTS&nbsp;Downloads</li></a>
+        <a href="#"><li>Sign&nbsp;Out</li></a>
       </ul>
     </div> <!-- end of nav_bar -->
 

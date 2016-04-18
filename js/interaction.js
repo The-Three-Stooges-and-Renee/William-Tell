@@ -439,7 +439,12 @@ function hideline(lineid, speed) {
 }
 function showline(lineid, speed) {
   //$( lineid ).switchClass('hidden', 'jshide', speed, 'easeInCubic');
-  $( lineid ).addClass('jshide').removeClass('hidden');
+  if (speed==0) {
+    $( lineid ).addClass('jshide').removeClass('hidden');
+  }else {
+    $( lineid ).addClass('fadein').removeClass('hidden');
+  }
+  
 }
 
 function roundall() {
@@ -626,6 +631,7 @@ function evaluateshown(speed) {
     hideline('#out4', speed);
     
   }else {
+    showline('#out1', speed);
     showline('#in2', speed);
   }
   
@@ -636,7 +642,9 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
+    showline('#out1', speed);
     showline('#out2', speed);
+    showline('#in2', speed);
   }
 
   if ((($('#outh2').val() == 0) || ($('#outh2').val() == 00)) && (($('#outm2').val() == 0) || ($('#outm2').val() == 00))) {
@@ -646,6 +654,9 @@ function evaluateshown(speed) {
     hideline('#out4', speed);
     
   }else {
+    showline('#out1', speed);
+    showline('#out2', speed);
+    showline('#in2', speed);
     showline('#in3', speed);
   }  
   
@@ -654,6 +665,10 @@ function evaluateshown(speed) {
     hideline('#in4', speed);
     hideline('#out4', speed);
   }else {
+    showline('#out1', speed);
+    showline('#out2', speed);
+    showline('#in2', speed);
+    showline('#in3', speed);
     showline('#out3', speed);
   }
   if ((($('#outh3').val() == 0) || ($('#outh3').val() == 00)) && (($('#outm3').val() == 0) || ($('#outm3').val() == 00))) {
@@ -661,12 +676,23 @@ function evaluateshown(speed) {
     hideline('#out4', speed);
   }else {
     if (!(($('#outm3').val() == 00) || ($('#outm3').val() == 0))) {
+      showline('#out1', speed);
+      showline('#out2', speed);
+      showline('#in2', speed);
+      showline('#in3', speed);
+      showline('#out3', speed);
       showline('#in4', speed);
     }
   }
   if ((($('#inh4').val() == 0) || ($('#inh4').val() == 00)) && (($('#inm4').val() == 0) || ($('#inm4').val() == 00))) {
     hideline('#out4', speed);
   }else {
+    showline('#out1', speed);
+    showline('#out2', speed);
+    showline('#in2', speed);
+    showline('#in3', speed);
+    showline('#out3', speed);
+    showline('#in4', speed);
     showline('#out4', speed);
   }
 }
