@@ -80,7 +80,7 @@
         <a href="#"><li>Academics</li></a>
         <a href="#"><li>Finances</li></a>
         <a href="timesheet.php"><li>Work</li></a>
-        <a href="#"><li><OTS&nbsp;Downloads</li></a>
+        <a href="#"><li>OTS&nbsp;Downloads</li></a>
 		<a href="#"><li>Sign&nbsp;Out</li></a>
       </ul>
     </div> <!-- end of nav_bar -->
