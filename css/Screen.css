@@ -403,7 +403,7 @@ img {
 
 @media screen and (min-width: 50em) { /*800px*/
 
-.login, .logo{
+.login .logo{
 	background-color: transparent;
 }	
 	
