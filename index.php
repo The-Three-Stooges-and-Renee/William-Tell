@@ -35,7 +35,7 @@
     
 ?>
 <!Doctype HTML>
-<html lang="end">
+<html lang="en-US">
 
 	<head>
 		<title>IIT Student Welcome</title>
