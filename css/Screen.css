@@ -146,6 +146,12 @@ form {
  	text-transform: uppercase;
 }
 
+.logo {
+	max-width: 95%;
+	margin-left: 2.5%;
+  margin-top: 1%;
+}
+
 #iit_banner {
 	background-color: #C40C15;
 	min-height: 5em;
