@@ -152,6 +152,10 @@ form {
   margin-top: 1%;
 }
 
+.login, .logo{
+	background-color: #000;
+}
+
 #iit_banner {
 	background-color: #C40C15;
 	min-height: 5em;
@@ -384,7 +388,7 @@ img {
 }
 
 @media screen and (min-width: 43.75em) { /*700px*/
-
+	
 .nav a,li {
 	display: inline-block;
 	padding: 1%;
@@ -395,4 +399,12 @@ img {
 	width: 33.3%;
 	}	
 
+}
+
+@media screen and (min-width: 50em) { /*800px*/
+
+.login, .logo{
+	background-color: transparent;
+}	
+	
 }
