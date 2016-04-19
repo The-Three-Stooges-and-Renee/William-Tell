@@ -152,9 +152,6 @@ form {
   margin-top: 1%;
 }
 
-.login .logo{
-	background-color: #000;
-}
 
 #iit_banner {
 	background-color: #C40C15;
@@ -401,10 +398,4 @@ img {
 
 }
 
-@media screen and (min-width: 50em) { /*800px*/
 
-.login .logo{
-	background-color: transparent;
-}	
-	
-}
