@@ -51,14 +51,14 @@
 		</div>
     
     <div id="nav_bar">
-      <ul class="nav">
+      <div class="nav">
         <a href="index.php"><li>Welcome</li></a>
         <a href="#"><li>Academics</li></a>
         <a href="#"><li>Finances</li></a>
         <a href="timesheet.php"><li>Work</li></a>
         <a href="#"><li>OTS&nbsp;Downloads</li></a>
         <a href="http://submit-iit-timesheet.geekkidconsulting.com/login.aspx?signout=true"><li>Sign&nbsp;Out</li></a>
-      </ul>
+      </div>
     </div> <!-- end of nav_bar -->
 
     <div id="welcome">
