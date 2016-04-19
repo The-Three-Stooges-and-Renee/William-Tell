@@ -4,7 +4,7 @@ $( document ).ready(function() {
   hideline('.jshide', 0);
   showline('.jsshow', 0);
   evaluateshown(0);
-  if ($('#pmin1').is(':checked')) {
+  /*if ($('#pmin1').is(':checked')) {
     setpm('out1');
     setpm('in2');
     setpm('out2');
@@ -45,7 +45,7 @@ $( document ).ready(function() {
   }
   if ($('#pmin4').is(':checked')) {
     setpm('out4');
-  }
+  }*/
   
   $( '#date' ).bind('input', function(){
     $.ajax({
