@@ -35,7 +35,29 @@
     
 ?>
 <!Doctype HTML>
-<html lang="end">
+<html lang="en-US">
+
+<!--=================================================================================
+
+  index.php
+  
+  Designed by: Dean Nelson and Renée Weaver with assistance from Brian Semrau
+  PHP and JavaScript developed by: Brian Semrau
+  
+  Purpose: To serve as the welcome page in our project.  This page calculates the
+  A number of the user, as well as generates a random registration pin and
+  ensures that the user has an authentication cookie.  While this page doesn't
+  actually verify the cookie is valid, it should be enough for most users.
+  The database does check the validity of the cookie before submitting the changes,
+  so that prevents un-authorized submittals and shows a proof of concept.
+  
+  Issues with this page should be submitted to:
+  https://github.com/The-Three-Stooges-and-Renee/William-Tell-DB/issues
+  
+  All questions, comments, or inquiries about supporting this project should be sent to:
+  williamtell@webhomework.geekkidconsulting.com.
+  
+  =================================================================================-->
 
 	<head>
 		<title>IIT Student Welcome</title>
