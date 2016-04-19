@@ -83,7 +83,7 @@
         <a href="#">Finances</a>
         <a href="timesheet.php">Work</a>
         <a href="#">OTS&nbsp;Downloads</a>
-		<a href="http://submit-iit-timesheet.geekkidconsulting.com/login.aspx?signout=true">Sign&nbsp;Out</a>
+        <a href="http://submit-iit-timesheet.geekkidconsulting.com/login.aspx?signout=true">Sign&nbsp;Out</a>
       </div>
     </div> <!-- end of nav_bar -->
 
