@@ -56,7 +56,7 @@
   to allow student workers to submit a log of the hours that they have worked.
   
   Issues with this page should be submitted to:
-  https://github.com/The-Three-Stooges-and-Renee/William-Tell-DB/issues
+  https://github.com/The-Three-Stooges-and-Renee/William-Tell/issues
   
   All questions, comments, or inquiries about supporting this project should be sent to:
   williamtell@webhomework.geekkidconsulting.com.
