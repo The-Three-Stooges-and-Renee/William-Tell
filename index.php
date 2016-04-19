@@ -52,7 +52,7 @@
   so that prevents un-authorized submittals and shows a proof of concept.
   
   Issues with this page should be submitted to:
-  https://github.com/The-Three-Stooges-and-Renee/William-Tell-DB/issues
+  https://github.com/The-Three-Stooges-and-Renee/William-Tell/issues
   
   All questions, comments, or inquiries about supporting this project should be sent to:
   williamtell@webhomework.geekkidconsulting.com.
