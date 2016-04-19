@@ -1,7 +1,8 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="login.aspx.vb" Inherits="backendDB.login" %>
 
 <!DOCTYPE html>
-
+<!--Please see https://github.com/The-Three-Stooges-and-Renee/William-Tell-DB for full code.  This page
+    is hosted at http://submit-iit-timesheet.geekkidconsulting.com/login.aspx.-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Timesheet Login</title>
